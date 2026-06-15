@@ -75,6 +75,111 @@ html[data-theme="dark"] {
   margin-bottom: 1.75rem;
 }
 
+.hj-contact-layout {
+  display: grid;
+  grid-template-columns: minmax(16rem, 0.78fr) minmax(24rem, 1.22fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.hj-contact-details h3 {
+  margin-top: 1.75rem;
+  color: var(--global-theme-color);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.hj-contact-role {
+  line-height: 1.65;
+}
+
+.hj-contact-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.hj-contact-list li {
+  margin-bottom: 0.8rem;
+  line-height: 1.55;
+}
+
+.hj-contact-address {
+  padding: 1rem 1.1rem;
+  margin: 0;
+  color: var(--global-text-color);
+  background: color-mix(in srgb, var(--global-theme-color) 7%, var(--global-bg-color));
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 0.35rem;
+  font-style: normal;
+  line-height: 1.65;
+}
+
+.hj-contact-map-card {
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-top: 4px solid var(--global-theme-color);
+  border-radius: 0.7rem;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+}
+
+.hj-contact-map-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+}
+
+.hj-contact-map-heading h2 {
+  margin: 0 0 0.15rem;
+  color: var(--global-theme-color);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.hj-contact-map-heading p {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+.hj-contact-map-heading > i {
+  color: var(--global-theme-color);
+  font-size: 1.5rem;
+}
+
+.hj-contact-map-frame {
+  position: relative;
+  width: 100%;
+  min-height: 25rem;
+  background: var(--global-divider-color);
+}
+
+.hj-contact-map-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.hj-contact-map-links {
+  padding: 0.85rem 1.2rem 1rem;
+}
+
+.hj-contact-map-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-weight: 600;
+}
+
+.hj-contact-map-links i {
+  font-size: 0.78rem;
+}
+
 .hj-personal-carousel {
   width: 100%;
   margin: 0 auto 2rem;
@@ -263,6 +368,15 @@ html[data-theme="dark"] {
 }
 
 @media (max-width: 575px) {
+  .hj-contact-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hj-contact-map-frame {
+    min-height: 20rem;
+  }
+
   .hj-carousel-viewport {
     border-radius: 0.45rem;
   }
@@ -288,6 +402,12 @@ html[data-theme="dark"] {
   .hj-carousel-counter {
     top: 0.55rem;
     right: 0.55rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 900px) {
+  .hj-contact-layout {
+    grid-template-columns: 1fr;
   }
 }
 
