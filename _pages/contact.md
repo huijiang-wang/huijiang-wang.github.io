@@ -4,10 +4,10 @@ title: Contact
 permalink: /contact/
 nav: true
 nav_order: 5
-description: Professional contact information for Huijiang Wang.
+description: Emails are preferred to contact Dr. Huijiang Wang.
 ---
 
-## Huijiang Wang
+<h2 class="hj-section-title">Dr. Huijiang Wang</h2>
 
 **Postdoctoral Researcher**<br>
 CREATE Lab<br>

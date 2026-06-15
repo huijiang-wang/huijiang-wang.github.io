@@ -7,7 +7,7 @@ nav_order: 4
 description: Selected talks, oral presentations, flash talks, and poster presentations.
 ---
 
-## Selected Talks and Presentations
+<h2 class="hj-section-title">Selected Talks and Presentations</h2>
 
 The following items appear in the CV's invited presentations section. Each presentation format is retained as reported.
 
