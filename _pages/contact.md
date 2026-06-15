@@ -15,6 +15,6 @@ Department of Mechanical Engineering<br>
 Swiss Federal Institute of Technology in Lausanne (EPFL)<br>
 Lausanne, Switzerland
 
-- **Email:** [huijiang.wang@epfl.ch](mailto:huijiang.wang@epfl.ch)
+- **Email:** [huijiang.wang@epfl.ch](mailto:huijiang.wang@epfl.ch); [hw567@cantab.ac.uk](mailto:hw567@cantab.ac.uk)
 - **GitHub:** [huijiang-wang](https://github.com/huijiang-wang)
 - **Google Scholar:** [Huijiang Wang](https://scholar.google.com/citations?user=-d_88akAAAAJ)

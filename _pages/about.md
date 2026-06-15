@@ -29,8 +29,6 @@ latest_posts:
 
 Huijiang Wang is a Postdoctoral Researcher in the CREATE Lab at the Swiss Federal Institute of Technology Lausanne (EPFL). His research explores <span class="hj-red-bold">how morphology, materials, sensing, and control</span> can be integrated to create adaptive and intelligent robotic systems. During his PhD at the University of Cambridge, he conducted research in the Bio-Inspired Robotics Lab, focusing on embodied dynamics and bio-inspired mechanisms for adaptive robotic behaviour. His work has encompassed variable-stiffness anthropomorphic fingers, expressive piano-playing robots, human upper-limb coordination, form-flexible suction grippers, self-healing soft robotic grippers, and learning-based methods for human–robot cooperative piano playing. Prior to joining EPFL, he was a Postdoctoral Researcher at the Swiss Federal Laboratories for Materials Science and Technology (Empa), where he worked on bio-inspired robotic design. He was also a <span class="hj-red-bold">Marie Skłodowska-Curie ESR Fellow</span> in soft robotics within an EU-funded MSCA Innovative Training Network.
 
-
-
 <!-- ## Research Interests -->
 <h2 class="hj-section-title">Research Interests</h2>
 
@@ -41,12 +39,10 @@ Huijiang Wang is a Postdoctoral Researcher in the CREATE Lab at the Swiss Federa
 - Robotic teleoperation
 - Human-robot collaboration
 
-
 <!-- ## Education -->
 <h2 class="hj-section-title">Education</h2>
 
-- PhD, University of Cambridge |  _January 2021 - March 2025_
-
+- PhD, University of Cambridge | _January 2021 - March 2025_
 
 ## Links
 

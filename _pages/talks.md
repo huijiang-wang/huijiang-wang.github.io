@@ -9,8 +9,6 @@ description: Selected talks, oral presentations, flash talks, and poster present
 
 <h2 class="hj-section-title">Selected Talks and Presentations</h2>
 
-The following items appear in the CV's invited presentations section. Each presentation format is retained as reported.
-
 - **2025** - 8th IEEE International Conference on Soft Robotics (RoboSoft 2025), "25 Years of Embodied Intelligence" Workshop, Lausanne, Switzerland. Poster presentation.
 - **2024** - CHIA (Centre for Human-Inspired Artificial Intelligence) Conference, Cambridge, United Kingdom. Flash talk and poster presentation.
 - **2023** - IEEE ICRA Workshop on Bio-inspired, Biomimetics, and Biohybrid (Cyborg) Systems, London, United Kingdom. Flash talk and poster presentation.
