@@ -531,7 +531,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "/assets/css/helvetica.css?v=20260615-personal-gallery"
+      fonts: "/assets/css/helvetica.css?v=20260615-personal-carousel"
   highlightjs:
     integrity:
       css:
