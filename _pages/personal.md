@@ -68,6 +68,16 @@ description: A gallery of life beyond research, including travel, outdoor activi
 
     <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
       <img
+        src="{{ '/assets/img/personal/2025-03-graduate.jpg' | relative_url }}"
+        alt="Mar2025 Graduate"
+        loading="lazy"
+        decoding="async"
+      >
+      <figcaption>Mar2025 Graduate</figcaption>
+    </figure>
+
+    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
+      <img
         src="{{ '/assets/img/personal/2023-09-cambridge-punting.webp' | relative_url }}"
         alt="Sep 2023 Cambridge Punting"
         loading="lazy"
@@ -167,7 +177,7 @@ description: A gallery of life beyond research, including travel, outdoor activi
       <span data-carousel-current>1</span>
       <span aria-hidden="true"> / </span>
       <span class="sr-only">of</span>
-      <span>14</span>
+      <span>15</span>
     </div>
 
   </div>
