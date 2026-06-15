@@ -34,15 +34,15 @@ text {
   --hj-blue: #364a88;
   --hj-green: #496b61;
   --hj-brown: #462d25;
-  --global-theme-color: #c73a64;
-  --global-hover-color: #364a88;
+  --global-theme-color: #c73a64 !important;
+  --global-hover-color: #364a88 !important;
 }
 
 html[data-theme="dark"] {
   --hj-red: #6f91e8;
   --hj-blue: #6f91e8;
-  --global-theme-color: #6f91e8;
-  --global-hover-color: #8eaaef;
+  --global-theme-color: #6f91e8 !important;
+  --global-hover-color: #8eaaef !important;
 }
 
 .hj-red,
@@ -77,6 +77,12 @@ html[data-theme="dark"] {
 .post-title,
 .hj-section-title {
   color: var(--hj-red) !important;
+}
+
+.post article > .clearfix::after {
+  clear: none;
+  content: none;
+  display: none;
 }
 
 .hj-small {
