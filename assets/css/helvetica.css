@@ -79,10 +79,14 @@ html[data-theme="dark"] {
   color: var(--hj-red) !important;
 }
 
+.post article > .clearfix {
+  display: contents;
+}
+
 .post article > .clearfix::after {
   clear: none;
-  content: none;
-  display: none;
+  content: none !important;
+  display: none !important;
 }
 
 .hj-small {
