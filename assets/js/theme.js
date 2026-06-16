@@ -1,6 +1,55 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 const themeUserSetKey = "theme-user-set";
+const mainTabSearchIds = new Set([
+  "nav-home",
+  "nav-research",
+  "nav-publications",
+  "nav-talks",
+  "nav-personal",
+  "nav-contact",
+]);
+
+let restrictSearchAttempts = 0;
+
+const restrictSiteSearchToMainTabs = () => {
+  const ninjaKeys = document.querySelector("ninja-keys");
+  if (!ninjaKeys || !Array.isArray(ninjaKeys.data)) return false;
+
+  const filteredData = ninjaKeys.data.filter((item) => mainTabSearchIds.has(item.id));
+  if (filteredData.length !== ninjaKeys.data.length) {
+    ninjaKeys.data = filteredData;
+  }
+
+  return filteredData.length > 0;
+};
+
+const scheduleSearchRestriction = () => {
+  if (restrictSiteSearchToMainTabs() || restrictSearchAttempts >= 20) return;
+  restrictSearchAttempts += 1;
+  window.setTimeout(scheduleSearchRestriction, 100);
+};
+
+document.addEventListener("DOMContentLoaded", scheduleSearchRestriction);
+document.addEventListener(
+  "click",
+  (event) => {
+    const target = event.target instanceof Element ? event.target : null;
+    if (target && target.closest("#search-toggle")) {
+      restrictSiteSearchToMainTabs();
+    }
+  },
+  true
+);
+document.addEventListener(
+  "keydown",
+  (event) => {
+    if ((event.ctrlKey || event.metaKey) && event.key && event.key.toLowerCase() === "k") {
+      restrictSiteSearchToMainTabs();
+    }
+  },
+  true
+);
 
 // Toggle through light, dark, and system theme settings.
 let toggleThemeSetting = () => {
