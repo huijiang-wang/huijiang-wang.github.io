@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Robotic sensing placeholder</title>
+  <desc id="desc">A dummy research illustration with sensing nodes and signal paths.</desc>
+  <rect width="640" height="420" rx="36" fill="#f6f1ed"/>
+  <path d="M112 292c96-126 176-126 240 0 44 86 102 86 176 0" fill="none" stroke="#364a88" stroke-width="22" stroke-linecap="round"/>
+  <g fill="#c73a64">
+    <circle cx="112" cy="292" r="24"/>
+    <circle cx="250" cy="198" r="24"/>
+    <circle cx="352" cy="292" r="24"/>
+    <circle cx="528" cy="292" r="24"/>
+  </g>
+  <path d="M250 104v52M352 104v134M528 118v124" stroke="#496b61" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+</svg>

@@ -10,8 +10,10 @@ description: A gallery of life beyond research, including travel, outdoor activi
 <h2 class="hj-section-title">Beyond the Lab</h2>
 
 <p class="hj-personal-intro">
-  A collection of moments beyond research, from travel and outdoor adventures to celebrations, friendships, and everyday life.
+  Outside the lab, I enjoy badminton, swimming, traveling, and cooking. This page is a small collection of places I have been, people I have met, and ordinary moments that keep life fun between research deadlines.
 </p>
+
+<h2 class="hj-section-title">Gallery</h2>
 
 <div class="hj-personal-carousel" data-personal-carousel aria-label="Personal photo gallery" aria-roledescription="carousel" tabindex="0">
   <div class="hj-carousel-viewport">
@@ -183,6 +185,25 @@ description: A gallery of life beyond research, including travel, outdoor activi
   </div>
 
   <div class="hj-carousel-dots" data-carousel-dots aria-label="Choose a photo"></div>
+</div>
+
+<div class="hj-media-video-card">
+  <div class="hj-media-video-copy">
+    <h2 class="hj-section-title">Media Coverage</h2>
+    <p>A short video feature and interview related to my work.</p>
+  </div>
+  <div class="hj-media-video-frame">
+    <iframe
+      title="Media coverage video featuring Huijiang Wang"
+      src="https://www.youtube.com/embed/v22b67mLh0k"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <p class="hj-media-video-link">
+    <a href="https://www.youtube.com/watch?v=v22b67mLh0k" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+  </p>
 </div>
 
 <script>

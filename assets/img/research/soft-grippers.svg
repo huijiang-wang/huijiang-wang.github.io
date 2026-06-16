@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Soft grippers placeholder</title>
+  <desc id="desc">A dummy research illustration of a soft gripper holding an object.</desc>
+  <rect width="640" height="420" rx="36" fill="#edf4f2"/>
+  <circle cx="320" cy="240" r="72" fill="#f7edf1" stroke="#c73a64" stroke-width="12"/>
+  <path d="M186 102c66 40 98 94 98 162M454 102c-66 40-98 94-98 162" fill="none" stroke="#496b61" stroke-width="32" stroke-linecap="round"/>
+  <path d="M244 112c42 38 60 76 58 120M396 112c-42 38-60 76-58 120" fill="none" stroke="#364a88" stroke-width="22" stroke-linecap="round" opacity=".88"/>
+</svg>
