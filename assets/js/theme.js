@@ -1,14 +1,7 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 const themeUserSetKey = "theme-user-set";
-const mainTabSearchIds = new Set([
-  "nav-home",
-  "nav-research",
-  "nav-publications",
-  "nav-talks",
-  "nav-personal",
-  "nav-contact",
-]);
+const mainTabSearchIds = new Set(["nav-home", "nav-research", "nav-publications", "nav-talks", "nav-personal", "nav-contact"]);
 
 let restrictSearchAttempts = 0;
 
