@@ -86,8 +86,8 @@ al_folio:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
-posts_in_search: true
+socials_in_search: false
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -531,7 +531,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "/assets/css/helvetica.css?v=20260616-research-publications"
+      fonts: "/assets/css/helvetica.css?v=20260616-gallery-projects-system-search"
   highlightjs:
     integrity:
       css:

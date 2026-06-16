@@ -46,4 +46,4 @@ Huijiang Wang is a Postdoctoral Researcher in the CREATE Lab at the Swiss Federa
 
 ## Links
 
-[Email](mailto:huijiang.wang@epfl.ch) | [GitHub](https://github.com/huijiang-wang) | [Google Scholar](https://scholar.google.com/citations?user=-d_88akAAAAJ)
+[Email](mailto:huijiang.wang@epfl.ch) | [LinkedIn](https://www.linkedin.com/in/huijiang-wang-93b367b7/) | [Google Scholar](https://scholar.google.com/citations?user=-d_88akAAAAJ)

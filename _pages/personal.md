@@ -15,158 +15,24 @@ description: A gallery of life beyond research, including travel, outdoor activi
 
 <h2 class="hj-section-title">Gallery</h2>
 
+{% assign gallery_items = site.data.personal_gallery %}
+
 <div class="hj-personal-carousel" data-personal-carousel aria-label="Personal photo gallery" aria-roledescription="carousel" tabindex="0">
   <div class="hj-carousel-viewport">
-    <figure class="hj-carousel-slide is-active" data-carousel-slide aria-hidden="false">
-      <img
-        src="{{ '/assets/img/personal/2025-12-dog-in-canteen-likes-me.webp' | relative_url }}"
-        alt="Dec2025 Dog in Canteen likes me"
-        loading="eager"
-        decoding="async"
-        fetchpriority="high"
-      >
-      <figcaption>Dec2025 Dog in Canteen likes me</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2025-12-hiking.webp' | relative_url }}"
-        alt="Dec2025 Hiking"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>Dec2025 Hiking</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2025-12-sichuan.webp' | relative_url }}"
-        alt="Dec2025 SiChuan"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>Dec2025 SiChuan</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2025-05-hainan.webp' | relative_url }}"
-        alt="May2025 Hainan"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>May2025 Hainan</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2025-03-lab.webp' | relative_url }}"
-        alt="Mar2025 Lab"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>Mar2025 Lab</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2025-03-graduate.jpg' | relative_url }}"
-        alt="Mar2025 Graduate"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>Mar2025 Graduate</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2023-09-cambridge-punting.webp' | relative_url }}"
-        alt="Sep 2023 Cambridge Punting"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>Sep 2023 Cambridge Punting</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2023-02-understanding-intelligence-workshop.webp' | relative_url }}"
-        alt="February 2023 Understanding Intelligence Workshop"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>February 2023 Understanding Intelligence Workshop</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2022-12-darwin-snow.webp' | relative_url }}"
-        alt="Dec2022 Darwin Snow"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>Dec2022 Darwin Snow</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2022-08-pisa-msca-training.webp' | relative_url }}"
-        alt="Aug2022 Pisa MSCA Training"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>Aug2022 Pisa MSCA Training</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2022-06-trinity-mayball.webp' | relative_url }}"
-        alt="June 2022 Trinity MayBall"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>June 2022 Trinity MayBall</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2022-04-robosoft-conference-1.webp' | relative_url }}"
-        alt="April 2022 RoboSoft Conference (1)"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>April 2022 RoboSoft Conference (1)</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2021-12-smart-winter-school.webp' | relative_url }}"
-        alt="December 2021 SMART Winter School"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>December 2021 SMART Winter School</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2021-06-graduation-pub.webp' | relative_url }}"
-        alt="June 2021 Graduation Pub"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>June 2021 Graduation Pub</figcaption>
-    </figure>
-
-    <figure class="hj-carousel-slide" data-carousel-slide aria-hidden="true">
-      <img
-        src="{{ '/assets/img/personal/2021-04-ohmc-demo.webp' | relative_url }}"
-        alt="April 2021 OHMC Demo"
-        loading="lazy"
-        decoding="async"
-      >
-      <figcaption>April 2021 OHMC Demo</figcaption>
-    </figure>
+    {% for item in gallery_items %}
+      <figure class="hj-carousel-slide{% if forloop.first %} is-active{% endif %}" data-carousel-slide aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">
+        <img
+          src="{{ item.image | relative_url }}"
+          alt="{{ item.caption }}"
+          loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+          decoding="async"
+          {% if forloop.first %}
+            fetchpriority="high"
+          {% endif %}
+        >
+        <figcaption>{{ item.caption }}</figcaption>
+      </figure>
+    {% endfor %}
 
     <button class="hj-carousel-button hj-carousel-previous" type="button" data-carousel-previous aria-label="Previous photo">
       <span aria-hidden="true">&#10094;</span>
@@ -179,7 +45,7 @@ description: A gallery of life beyond research, including travel, outdoor activi
       <span data-carousel-current>1</span>
       <span aria-hidden="true"> / </span>
       <span class="sr-only">of</span>
-      <span>15</span>
+      <span>{{ gallery_items.size }}</span>
     </div>
 
   </div>
