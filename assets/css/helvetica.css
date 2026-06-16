@@ -529,13 +529,9 @@ html[data-theme="light"] {
   color: var(--global-text-color-light);
 }
 
-.hj-footprint-card {
-  display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(15rem, 0.75fr);
-  gap: 1.25rem;
-  align-items: start;
-  margin: 0.75rem 0 2rem;
-  padding: 1rem;
+.hj-footprint-image-card {
+  margin: 0.85rem 0 2rem;
+  padding: 0.85rem;
   background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
   border-left: 4px solid var(--global-theme-color);
@@ -543,146 +539,20 @@ html[data-theme="light"] {
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
 }
 
-.hj-footprint-map-wrap {
-  overflow: auto;
-  border-radius: 0.6rem;
-  background:
-    radial-gradient(circle at 24% 24%, color-mix(in srgb, var(--global-theme-color) 11%, transparent), transparent 26%),
-    color-mix(in srgb, var(--global-theme-color) 5%, var(--global-bg-color));
-}
-
-.hj-footprint-map {
+.hj-footprint-image-card img {
   display: block;
   width: 100%;
-  min-width: 42rem;
-  height: auto;
-}
-
-.hj-map-sea {
-  fill: color-mix(in srgb, var(--global-theme-color) 7%, var(--global-bg-color));
-}
-
-.hj-map-region {
-  stroke: var(--global-bg-color);
-  stroke-width: 3;
-  opacity: 0.92;
-}
-
-.hj-map-region-muted {
-  fill: color-mix(in srgb, var(--global-text-color-light) 12%, var(--global-card-bg-color));
-}
-
-.hj-map-uk {
-  fill: color-mix(in srgb, var(--hj-blue) 56%, #ffffff);
-}
-
-.hj-map-benelux {
-  fill: color-mix(in srgb, var(--hj-green) 60%, #ffffff);
-}
-
-.hj-map-germany {
-  fill: color-mix(in srgb, var(--hj-red) 54%, #ffffff);
-}
-
-.hj-map-alps {
-  fill: color-mix(in srgb, var(--hj-blue) 36%, #ffffff);
-}
-
-.hj-map-austria {
-  fill: color-mix(in srgb, var(--hj-brown) 44%, #ffffff);
-}
-
-.hj-map-italy {
-  fill: color-mix(in srgb, var(--hj-green) 42%, #ffffff);
-}
-
-.hj-map-route {
-  fill: none;
-  stroke: var(--global-theme-color);
-  stroke-width: 3;
-  stroke-dasharray: 8 8;
-  opacity: 0.82;
-}
-
-.hj-footprint-map marker polygon,
-.hj-footprint-callout marker polygon {
-  fill: var(--global-theme-color);
-}
-
-.hj-footprint-callout path {
-  fill: none;
-  stroke: var(--global-theme-color);
-  stroke-width: 2.2;
-}
-
-.hj-footprint-callout rect {
-  fill: color-mix(in srgb, var(--global-card-bg-color) 92%, var(--global-theme-color));
-  stroke: var(--global-theme-color);
-  stroke-width: 1.4;
-  filter: drop-shadow(0 7px 12px rgba(0, 0, 0, 0.12));
-}
-
-.hj-footprint-callout text {
-  fill: var(--global-text-color);
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.hj-footprint-callout text + text {
-  fill: var(--global-text-color-light);
-  font-size: 11px;
-  font-weight: 500;
-}
-
-.hj-map-pin circle {
-  fill: var(--global-theme-color);
-  stroke: var(--global-card-bg-color);
-  stroke-width: 3;
-}
-
-.hj-map-pin text {
-  fill: var(--global-text-color);
-  font-size: 12px;
-  font-weight: 700;
-  paint-order: stroke;
-  stroke: var(--global-card-bg-color);
-  stroke-width: 4px;
-  stroke-linejoin: round;
-  text-anchor: middle;
-}
-
-.hj-footprint-list {
-  display: grid;
-  gap: 0.75rem;
-}
-
-.hj-footprint-list article {
-  padding: 0.75rem 0.85rem;
-  background: color-mix(in srgb, var(--global-theme-color) 5%, var(--global-bg-color));
-  border: 1px solid var(--global-divider-color);
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #f7fafb;
   border-radius: 0.55rem;
 }
 
-.hj-footprint-list span {
-  display: block;
-  margin-bottom: 0.18rem;
-  color: var(--global-theme-color);
-  font-size: 0.82rem;
-  font-weight: 700;
-}
-
-.hj-footprint-list strong {
-  display: block;
-  margin-bottom: 0.25rem;
-  color: var(--global-text-color);
-  font-size: 0.96rem;
-}
-
-.hj-footprint-list p {
-  margin: 0;
+.hj-footprint-image-card figcaption {
+  margin: 0.7rem 0 0;
   color: var(--global-text-color-light);
-  font-size: 0.88rem;
-  line-height: 1.45;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 @media (max-width: 575px) {
@@ -730,13 +600,8 @@ html[data-theme="light"] {
     right: 0.55rem;
   }
 
-  .hj-footprint-card {
-    grid-template-columns: 1fr;
-    padding: 0.8rem;
-  }
-
-  .hj-footprint-map {
-    min-width: 40rem;
+  .hj-footprint-image-card {
+    padding: 0.65rem;
   }
 }
 
@@ -746,10 +611,6 @@ html[data-theme="light"] {
   }
 
   .hj-contact-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .hj-footprint-card {
     grid-template-columns: 1fr;
   }
 }
