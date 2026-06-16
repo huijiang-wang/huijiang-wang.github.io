@@ -531,7 +531,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "/assets/css/helvetica.css?v=20260616-search-portrait"
+      fonts: "/assets/css/helvetica.css?v=20260616-footprint-map"
   highlightjs:
     integrity:
       css:
