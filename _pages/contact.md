@@ -25,7 +25,10 @@ description: Emails are preferred to contact Dr. Huijiang Wang.
         <a href="mailto:huijiang.wang@epfl.ch">huijiang.wang@epfl.ch</a><br>
         <a href="mailto:hw567@cantab.ac.uk">hw567@cantab.ac.uk</a>
       </li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/huijiang-wang">huijiang-wang</a></li>
+      <li>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/huijiang-wang-93b367b7/">Huijiang Wang</a>
+      </li>
       <li>
         <strong>Google Scholar:</strong>
         <a href="https://scholar.google.com/citations?user=-d_88akAAAAJ">Huijiang Wang</a>

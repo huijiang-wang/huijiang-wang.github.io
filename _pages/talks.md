@@ -30,12 +30,12 @@ description: Selected talks, oral presentations, flash talks, and poster present
 
 <figure class="hj-footprint-image-card">
   <img
-    src="{{ '/assets/img/footprint/europe-footprint-map.svg' | relative_url }}"
-    alt="European footprint map highlighting Cambridge, Brussels, Braunschweig, Pontedera, Leoben, Zurich, and Lausanne with callouts for MSCA trainings, secondments, and postdoctoral work."
+    src="{{ '/assets/img/footprint/huijiang-networking.jpg' | relative_url }}"
+    alt="Huijiang Wang's European footprint and networking map highlighting academic and research connections."
     loading="lazy"
     decoding="async"
   >
   <figcaption>
-    European footprint across MSCA trainings, secondments, and postdoctoral work.
+    European footprint and networking connections across trainings, secondments, and postdoctoral work.
   </figcaption>
 </figure>
