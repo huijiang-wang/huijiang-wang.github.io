@@ -66,7 +66,7 @@ description: A gallery of life beyond research, including travel, outdoor activi
       programs, and discussed the project with a chief underwater robot designer.
     </p>
     <div class="hj-media-video-frame">
-      <video controls preload="metadata" playsinline>
+      <video controls preload="metadata" playsinline poster="{{ '/assets/img/media/cctv1-program-cover.jpg' | relative_url }}">
         <source src="{{ '/assets/video/cctv1-robot-fish-program-2016.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
