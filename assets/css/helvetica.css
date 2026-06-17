@@ -501,6 +501,23 @@ html[data-theme="light"] {
   color: var(--global-text-color-light);
 }
 
+.hj-media-video-item + .hj-media-video-item {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.hj-media-video-item p {
+  color: var(--global-text-color-light);
+}
+
+.hj-media-video-title {
+  margin: 0 0 0.45rem;
+  color: var(--global-theme-color);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
 .hj-media-video-frame {
   position: relative;
   width: 100%;
@@ -516,6 +533,14 @@ html[data-theme="light"] {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.hj-media-video-frame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #111318;
 }
 
 .hj-media-video-link {
