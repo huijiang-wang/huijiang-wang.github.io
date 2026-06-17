@@ -56,20 +56,42 @@ description: A gallery of life beyond research, including travel, outdoor activi
 <div class="hj-media-video-card">
   <div class="hj-media-video-copy">
     <h2 class="hj-section-title">Media Coverage</h2>
+    <p>Selected video features and interviews related to my work.</p>
+  </div>
+
+  <article class="hj-media-video-item">
+    <h3 class="hj-media-video-title">CCTV Feature (Chinese)</h3>
+    <p>
+      In 2016, I presented my robot fish project on CCTV, one of China's top national television programs, and discussed
+      the project with the chief designer.
+    </p>
+    <div class="hj-media-video-frame">
+      <video controls preload="metadata" playsinline>
+        <source src="{{ '/assets/video/cctv1-robot-fish-program-2016.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <p class="hj-media-video-link">
+      <a href="{{ '/assets/video/cctv1-robot-fish-program-2016.mp4' | relative_url }}">Open the CCTV feature video</a>
+    </p>
+  </article>
+
+  <article class="hj-media-video-item">
+    <h3 class="hj-media-video-title">Related Media Coverage</h3>
     <p>A short video feature and interview related to my work.</p>
-  </div>
-  <div class="hj-media-video-frame">
-    <iframe
-      title="Media coverage video featuring Huijiang Wang"
-      src="https://www.youtube.com/embed/v22b67mLh0k"
-      loading="lazy"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-  </div>
-  <p class="hj-media-video-link">
-    <a href="https://www.youtube.com/watch?v=v22b67mLh0k" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
-  </p>
+    <div class="hj-media-video-frame">
+      <iframe
+        title="Media coverage video featuring Huijiang Wang"
+        src="https://www.youtube.com/embed/v22b67mLh0k"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <p class="hj-media-video-link">
+      <a href="https://www.youtube.com/watch?v=v22b67mLh0k" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+    </p>
+  </article>
 </div>
 
 <script>
