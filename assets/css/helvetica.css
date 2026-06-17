@@ -86,6 +86,13 @@ html[data-theme="light"] {
   display: none !important;
 }
 
+.hj-highlight-red {
+  color: var(--hj-red);
+  background-color: rgba(199, 58, 100, 0.1);
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
 .publications h2.bibliography {
   color: var(--global-theme-color) !important;
   font-weight: 700;
