@@ -62,8 +62,8 @@ description: A gallery of life beyond research, including travel, outdoor activi
   <article class="hj-media-video-item">
     <h3 class="hj-media-video-title">CCTV Feature (Chinese)</h3>
     <p>
-      In 2016, I presented my robot fish project on CCTV, one of China's top national television programs, and discussed
-      the project with the chief designer.
+      In 2016, I presented my robot fish project on CCTV-1 (China Central Television), China's top national television
+      programs, and discussed the project with a chief underwater robot designer.
     </p>
     <div class="hj-media-video-frame">
       <video controls preload="metadata" playsinline>
@@ -77,11 +77,13 @@ description: A gallery of life beyond research, including travel, outdoor activi
   </article>
 
   <article class="hj-media-video-item">
-    <h3 class="hj-media-video-title">Related Media Coverage</h3>
-    <p>A short video feature and interview related to my work.</p>
+    <h3 class="hj-media-video-title">EU MSCA Project</h3>
+    <p>
+      This MSCA-ITN project video summarizes my work on self-healing soft robots in September 2023.
+    </p>
     <div class="hj-media-video-frame">
       <iframe
-        title="Media coverage video featuring Huijiang Wang"
+        title="EU MSCA project video featuring Huijiang Wang's self-healing soft robot work"
         src="https://www.youtube.com/embed/v22b67mLh0k"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -89,7 +91,7 @@ description: A gallery of life beyond research, including travel, outdoor activi
       ></iframe>
     </div>
     <p class="hj-media-video-link">
-      <a href="https://www.youtube.com/watch?v=v22b67mLh0k" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+      <a href="https://www.youtube.com/watch?v=v22b67mLh0k" target="_blank" rel="noopener noreferrer">Watch the EU MSCA project video on YouTube</a>
     </p>
   </article>
 </div>
