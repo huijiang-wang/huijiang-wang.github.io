@@ -90,9 +90,23 @@ description: Selected talks, oral presentations, flash talks, and poster present
       decoding="async"
     >
     <figcaption>
-      <strong>Understanding Intelligence Workshop</strong>: February 2023, Cambridge, United Kingdom. I presented a poster and
-      discussed embodied intelligence, human-inspired robotics, and adaptive robot behavior at a workshop connected to Professor Rolf Pfeifer,
-      one of the authors of <em>Understanding Intelligence</em>.
+      <strong>Understanding Intelligence Workshop</strong>: February 2023, Cambridge, UK. We invited Prof. Rolf Pfeifer, author of
+      <a
+        href="https://books.google.ch/books?hl=zh-CN&lr=&id=iIv6-rxTCkoC&oi=fnd&pg=PR11&dq=understanding+intelligence&ots=nVX-9OEImX&sig=Pin4OGpWkwHVcEw2VI3cxcwnzgY&redir_esc=y#v=onepage&q=understanding%20intelligence&f=false"
+      ><em>Understanding Intelligence</em></a>, to visit our BIRL lab.
+    </figcaption>
+  </figure>
+
+  <figure class="hj-talk-photo-card" id="talk-photo-toshio-fukuda">
+    <img
+      src="{{ '/assets/img/talks/2023-05-toshio-fukuda-pre-icra-workshop.jpg' | relative_url }}"
+      alt="Huijiang Wang presenting a poster and discussing with Professor Toshio Fukuda at a Pre-ICRA workshop in Cambridge."
+      loading="lazy"
+      decoding="async"
+    >
+    <figcaption>
+      <strong>Pre-ICRA Workshop</strong>: May 2023, Cambridge, UK. I presented poster and discussed with Prof. Toshio Fukuda,
+      former IEEE President, at Pre-ICRA workshop.
     </figcaption>
   </figure>
 </section>
