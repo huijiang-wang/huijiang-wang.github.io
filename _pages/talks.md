@@ -42,10 +42,6 @@ description: Selected talks, oral presentations, flash talks, and poster present
 
 <h2 class="hj-section-title">Talk Moments</h2>
 
-<p class="hj-talk-photo-intro">
-  A few snapshots from talks, trainings, and workshops during my MSCA research journey.
-</p>
-
 <section class="hj-talk-photo-list" aria-label="Talk photos">
   <figure class="hj-talk-photo-card" id="talk-photo-sssa">
     <img
@@ -95,7 +91,8 @@ description: Selected talks, oral presentations, flash talks, and poster present
     >
     <figcaption>
       <strong>Understanding Intelligence Workshop</strong>: February 2023, Cambridge, United Kingdom. I presented a poster and
-      discussed embodied intelligence, human-inspired robotics, and adaptive robot behavior.
+      discussed embodied intelligence, human-inspired robotics, and adaptive robot behavior at a workshop connected to Professor Rolf Pfeifer,
+      one of the authors of <em>Understanding Intelligence</em>.
     </figcaption>
   </figure>
 </section>
