@@ -587,12 +587,6 @@ html[data-theme="light"] {
   text-align: center;
 }
 
-.hj-talk-photo-intro {
-  max-width: 48rem;
-  margin-bottom: 1rem;
-  color: var(--global-text-color-light);
-}
-
 .hj-talk-photo-list {
   display: grid;
   gap: 1.35rem;
@@ -613,7 +607,7 @@ html[data-theme="light"] {
 .hj-talk-photo-card img {
   display: block;
   width: 100%;
-  max-height: 44rem;
+  aspect-ratio: 16 / 9;
   object-fit: contain;
   background: #f7fafb;
   border-radius: 0.55rem;
