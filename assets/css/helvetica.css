@@ -613,6 +613,12 @@ html[data-theme="light"] {
   border-radius: 0.55rem;
 }
 
+#talk-photo-sssa img,
+#talk-photo-understanding-intelligence img {
+  aspect-ratio: auto;
+  height: auto;
+}
+
 .hj-talk-photo-card figcaption {
   margin: 0.75rem 0 0;
   color: var(--global-text-color-light);
