@@ -18,3 +18,5 @@ nav_order: 3
 {% bibliography %}
 
 </div>
+
+<script defer src="{{ '/assets/js/publication-link.js' | relative_url }}"></script>
