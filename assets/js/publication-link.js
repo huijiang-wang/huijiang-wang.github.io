@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const t=new URLSearchParams(window.location.search).get("paper");if(!t||!/^[a-zA-Z0-9_-]+$/.test(t))return;const e=document.getElementById(t);if(!e)return;(e.closest("li")||e).classList.add("hj-publication-target"),e.scrollIntoView({block:"center"}),window.history.replaceState(null,"",`${window.location.pathname}#${t}`)});
