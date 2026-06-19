@@ -163,6 +163,35 @@ html[data-theme="light"] {
   font-size: 0.92rem;
 }
 
+.hj-research-subtitle {
+  margin: 0.15rem 0 0;
+  color: var(--global-theme-color);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.hj-research-paper-list {
+  display: grid;
+  gap: 0.45rem;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.hj-research-paper-list li {
+  padding-left: 0.15rem;
+  line-height: 1.45;
+}
+
+.hj-research-paper-list a {
+  font-weight: 600;
+}
+
+.hj-research-paper-list span {
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
 .hj-research-links {
   display: flex;
   flex-wrap: wrap;
