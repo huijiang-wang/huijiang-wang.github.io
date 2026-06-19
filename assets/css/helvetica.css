@@ -171,19 +171,26 @@ html[data-theme="light"] {
 }
 
 .hj-research-paper-list {
-  display: grid;
-  gap: 0.45rem;
-  padding-left: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.8rem;
+  padding-left: 0;
   margin: 0;
+  list-style: none;
 }
 
 .hj-research-paper-list li {
-  padding-left: 0.15rem;
+  padding-left: 0;
   line-height: 1.45;
 }
 
+.hj-research-paper-list li:not(:last-child)::after {
+  content: ";";
+  color: var(--global-text-color-light);
+}
+
 .hj-research-paper-list a {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .publications ol.bibliography li.hj-publication-target {
