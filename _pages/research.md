@@ -26,7 +26,7 @@ description: Research in soft robotics, dexterous manipulation, and bio-inspired
     <h3 class="hj-research-subtitle">Selected papers</h3>
     <ul class="hj-research-paper-list">
       <li><a href="{{ '/publications/' | relative_url }}?paper=wang2025selfclosing" title="Self-Closing Suction Grippers for Industrial Grasping via Form-Flexible Design">IEEE RA-P, 2025</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023selfhealinggripper" title="Self-Regulated Self-Healing Robotic Gripper for Resilient and Adaptive Grasping">Adv. Intell. Syst., 2023</a></li>
+      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023selfhealinggripper" title="Self-Regulated Self-Healing Robotic Gripper for Resilient and Adaptive Grasping">Adv. Intell. Syst., 2023</a> <span>(Issue Cover)</span></li>
       <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023suctioncups" title="Self-Closing and Self-Healing Multi-Material Suction Cups for Energy-Efficient Vacuum Grippers">Adv. Intell. Syst., 2023</a></li>
       <li><a href="{{ '/publications/' | relative_url }}?paper=legrand2024variablestiffness" title="A Variable Stiffness Anthropomorphic Finger Through Embodied Intelligence Design">IEEE RA-L, 2024</a></li>
       <li><a href="{{ '/publications/' | relative_url }}?paper=sirithunge2023touchless" title="Touchless Sensing for Soft Robots: A Review">Front. Robot. AI, 2023</a></li>
@@ -46,8 +46,8 @@ description: Research in soft robotics, dexterous manipulation, and bio-inspired
 
 <div class="hj-research-project">
   <img
-    src="{{ '/assets/img/research/dexterous-hand.jpg' | relative_url }}"
-    alt="Dexterous robotic hand and arm system used for teleoperation and manipulation research"
+    src="{{ '/assets/img/research/group2-new.jpg' | relative_url }}"
+    alt="Dexterous robotic hand shown during teleoperation and physical interaction"
     loading="lazy"
     decoding="async"
   >
@@ -80,8 +80,8 @@ description: Research in soft robotics, dexterous manipulation, and bio-inspired
 
 <div class="hj-research-project">
   <img
-    src="{{ '/assets/img/research/robotic-sensing.jpg' | relative_url }}"
-    alt="Bio-inspired robot control framework coupling nervous system, body morphology, and task environment"
+    src="{{ '/assets/img/research/group3-new.png' | relative_url }}"
+    alt="Bio-inspired embodied control and human-robot cooperative piano-playing frameworks"
     loading="lazy"
     decoding="async"
   >
