@@ -37,6 +37,7 @@ description: Research in soft robotics, dexterous manipulation, and bio-inspired
       <a href="https://spectrum.ieee.org/video-friday-origami-microflyers" target="_blank" rel="noopener noreferrer">IEEE Spectrum coverage</a>
       <a href="https://www.youtube.com/watch?v=96Zf6kjGASw" target="_blank" rel="noopener noreferrer">Robot video</a>
       <a href="https://www.eng.cam.ac.uk/news/self-healing-robotic-gripper-could-be-future-sustainable-soft-robotics" target="_blank" rel="noopener noreferrer">Cambridge media coverage</a>
+      <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">ICRA26 Oral Present</a>
     </div>
 
   </div>
@@ -68,9 +69,8 @@ description: Research in soft robotics, dexterous manipulation, and bio-inspired
     </ul>
 
     <div class="hj-research-links" aria-label="Resources for Dexterous Manipulation">
-      <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">ICRA 2026 presentation video</a>
       <a href="{{ '/talks/#chia-2024-flash-talk-video' | relative_url }}">CHIA 2024 award-winning flash talk</a>
-      <a href="https://www.eng.cam.ac.uk/news/research-human-robot-cooperative-piano-playing-hits-high-note-ai-conference" target="_blank" rel="noopener noreferrer">Cambridge media coverage</a>
+      <a href="https://www.eng.cam.ac.uk/news/research-human-robot-cooperative-piano-playing-hits-high-note-ai-conference" target="_blank" rel="noopener noreferrer">Cambridge Feature</a>
     </div>
 
   </div>
