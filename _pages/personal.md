@@ -96,6 +96,64 @@ description: A gallery of life beyond research, including travel, outdoor activi
   </article>
 </div>
 
+<section class="hj-visitor-footprints" aria-labelledby="visitor-footprints-title">
+  <div class="hj-visitor-footprints-copy">
+    <h2 class="hj-section-title" id="visitor-footprints-title">Visitor Footprints</h2>
+    <p class="hj-visitor-number">
+      You are visitor No. <strong data-personal-visitor-count>...</strong> to this Personal page.
+    </p>
+    <p class="hj-visitor-note" data-personal-visitor-status>
+      The public counter below shows page views and countries that have visited this page.
+    </p>
+  </div>
+
+  <div class="hj-visitor-counter-wrap">
+    <a href="https://info.flagcounter.com/ihbh" target="_blank" rel="noopener noreferrer" aria-label="Open detailed visitor country statistics">
+      <img
+        src="https://s01.flagcounter.com/count2/ihbh/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_30/viewers_0/labels_0/pageviews_1/flags_0/percent_0/"
+        alt="Flag counter showing Personal page visitors by country"
+        loading="lazy"
+        decoding="async"
+      >
+    </a>
+  </div>
+
+  <p class="hj-visitor-privacy-note">
+    Counts are public page-view estimates. Country flags are based on country-level IP geolocation and may be affected by VPNs or private browsing tools.
+  </p>
+</section>
+
+<script>
+  (() => {
+    const countTarget = document.querySelector("[data-personal-visitor-count]");
+    const statusTarget = document.querySelector("[data-personal-visitor-status]");
+    if (!countTarget) return;
+
+    const counterKey = "huijiang-wang-github-io-personal-page-visits";
+    const counterUrl = `https://countapi.mileshilliard.com/api/v1/hit/${counterKey}`;
+
+    fetch(counterUrl, { cache: "no-store" })
+      .then((response) => {
+        if (!response.ok) throw new Error("Counter request failed");
+        return response.json();
+      })
+      .then((data) => {
+        const value = Number(data.value);
+        if (!Number.isFinite(value)) throw new Error("Counter value unavailable");
+        countTarget.textContent = new Intl.NumberFormat("en-US").format(value);
+        if (statusTarget) {
+          statusTarget.textContent = "The public counter below shows page views and countries that have visited this page.";
+        }
+      })
+      .catch(() => {
+        countTarget.textContent = "many";
+        if (statusTarget) {
+          statusTarget.textContent = "The live visitor number is temporarily unavailable, but the country counter below can still update independently.";
+        }
+      });
+  })();
+</script>
+
 <script>
   (() => {
     const initializeCarousel = () => {
