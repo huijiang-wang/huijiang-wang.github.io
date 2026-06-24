@@ -2,8 +2,57 @@
 
 const themeUserSetKey = "theme-user-set";
 const mainTabSearchIds = new Set(["nav-home", "nav-research", "nav-publications", "nav-talks", "nav-personal", "nav-contact"]);
+const hjAcademicWebsiteCounterKey = "huijiang-wang-github-io-personal-page-visits";
+const hjAcademicWebsiteCounterSessionKey = "hj-academic-website-visit-count";
 
 let restrictSearchAttempts = 0;
+
+const readAcademicWebsiteVisitCount = () => {
+  try {
+    const value = Number(sessionStorage.getItem(hjAcademicWebsiteCounterSessionKey));
+    return Number.isFinite(value) && value > 0 ? value : null;
+  } catch {
+    return null;
+  }
+};
+
+const storeAcademicWebsiteVisitCount = (value) => {
+  try {
+    sessionStorage.setItem(hjAcademicWebsiteCounterSessionKey, String(value));
+  } catch {
+    // Ignore storage failures; the public counter can still update.
+  }
+};
+
+const fetchAcademicWebsiteVisitCount = async (mode = "hit") => {
+  const endpoint = mode === "get" ? "get" : "hit";
+  const response = await fetch(`https://countapi.mileshilliard.com/api/v1/${endpoint}/${hjAcademicWebsiteCounterKey}`, { cache: "no-store" });
+  if (!response.ok) throw new Error("Academic website counter request failed");
+  const data = await response.json();
+  const value = Number(data.value);
+  if (!Number.isFinite(value)) throw new Error("Academic website counter value unavailable");
+  return value;
+};
+
+const academicWebsiteVisitCountPromise = (async () => {
+  const storedValue = readAcademicWebsiteVisitCount();
+  if (storedValue !== null) return storedValue;
+
+  try {
+    const value = await fetchAcademicWebsiteVisitCount("hit");
+    storeAcademicWebsiteVisitCount(value);
+    return value;
+  } catch {
+    const value = await fetchAcademicWebsiteVisitCount("get");
+    storeAcademicWebsiteVisitCount(value);
+    return value;
+  }
+})();
+
+window.hjAcademicWebsiteCounter = {
+  key: hjAcademicWebsiteCounterKey,
+  countPromise: academicWebsiteVisitCountPromise,
+};
 
 const restrictSiteSearchToMainTabs = () => {
   const ninjaKeys = document.querySelector("ninja-keys");

@@ -100,34 +100,30 @@ description: A gallery of life beyond research, including travel, outdoor activi
   <div class="hj-visitor-footprints-copy">
     <h2 class="hj-section-title" id="visitor-footprints-title">Visitor Footprints</h2>
     <p class="hj-visitor-number">
-      You are visitor No. <strong data-personal-visitor-count>...</strong> to this Personal page.
+      You are the No. <strong data-academic-website-visitor-count>...</strong> visitor to Dr. Huijiang Wang's academic website.
     </p>
   </div>
 </section>
 
 <script>
   (() => {
-    const countTarget = document.querySelector("[data-personal-visitor-count]");
+    const countTarget = document.querySelector("[data-academic-website-visitor-count]");
     if (!countTarget) return;
 
-    const countApiBase = "https://countapi.mileshilliard.com/api/v1";
-    const totalCounterKey = "huijiang-wang-github-io-personal-page-visits";
     const numberFormatter = new Intl.NumberFormat("en-US");
 
-    const updateTotalCounter = async () => {
+    const displayAcademicWebsiteVisitCount = async () => {
       try {
-        const response = await fetch(`${countApiBase}/hit/${totalCounterKey}`, { cache: "no-store" });
-        if (!response.ok) throw new Error("Counter request failed");
-        const data = await response.json();
-        const value = Number(data.value);
-        if (!Number.isFinite(value)) throw new Error("Counter value unavailable");
+        const counter = window.hjAcademicWebsiteCounter;
+        const value = Number(await counter.countPromise);
+        if (!Number.isFinite(value)) throw new Error("Academic website counter value unavailable");
         countTarget.textContent = numberFormatter.format(value);
       } catch {
         countTarget.textContent = "many";
       }
     };
 
-    updateTotalCounter();
+    displayAcademicWebsiteVisitCount();
   })();
 </script>
 
