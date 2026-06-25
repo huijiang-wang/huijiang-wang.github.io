@@ -15,7 +15,7 @@ profile:
     <p>Postdoc at EPFL<br>Lausanne, Switzerland. <br>huijiang.wang@epfl.ch</p>
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -48,34 +48,32 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
 
 <h2 class="hj-section-title">News</h2>
 
-<div class="hj-news-ticker" aria-label="Recent news">
+<div class="hj-news-ticker" aria-label="Recent news" style="--hj-news-visible-items: 3">
   <div class="hj-news-ticker-track">
-    <span class="hj-news-ticker-group">
-      <span class="hj-news-item">
+    <ul class="hj-news-list">
+      <li>
         <strong>04 June 2026:</strong> I gave an
-        <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">oral presentation</a>
-        at IEEE ICRA 2026.
-      </span>
-      <span class="hj-news-separator" aria-hidden="true">&middot;</span>
-      <span class="hj-news-item">
-        <strong>18-20 March 2026:</strong> As program chair, we organized the 6th
+        <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">oral presentation</a> at IEEE ICRA 2026.
+      </li>
+      <li>
+        <strong>18-20 March 2026:</strong> As Program Chair, we organized the 6th
         <a href="https://embodied-intelligence.org/" target="_blank" rel="noopener noreferrer">Embodied Intelligence</a>
         conference.
-      </span>
-    </span>
-    <span class="hj-news-ticker-group" aria-hidden="true">
-      <span class="hj-news-item">
+      </li>
+      <li><strong>16 June 2026:</strong> This academic website was officially launched.</li>
+    </ul>
+    <ul class="hj-news-list" aria-hidden="true">
+      <li>
         <strong>04 June 2026:</strong> I gave an
-        <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">oral presentation</a>
-        at IEEE ICRA 2026.
-      </span>
-      <span class="hj-news-separator" aria-hidden="true">&middot;</span>
-      <span class="hj-news-item">
-        <strong>18-20 March 2026:</strong> As program chair, we organized the 6th
+        <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">oral presentation</a> at IEEE ICRA 2026.
+      </li>
+      <li>
+        <strong>18-20 March 2026:</strong> As Program Chair, we organized the 6th
         <a href="https://embodied-intelligence.org/" target="_blank" rel="noopener noreferrer">Embodied Intelligence</a>
         conference.
-      </span>
-    </span>
+      </li>
+      <li><strong>16 June 2026:</strong> This academic website was officially launched.</li>
+    </ul>
   </div>
 </div>
 
