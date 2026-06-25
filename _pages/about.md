@@ -88,7 +88,7 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
     <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
     <span>LinkedIn</span>
   </a>
-  <a class="hj-home-link-card" href="https://scholar.google.com/citations?user=-d_88akAAAAJ" target="_blank" rel="noopener noreferrer">
+  <a class="hj-home-link-card" href="https://scholar.google.com/citations?user=-d_88akAAAAJ&hl=EN&oi=ao" target="_blank" rel="noopener noreferrer">
     <i class="ai ai-google-scholar" aria-hidden="true"></i>
     <span>Google Scholar</span>
   </a>

@@ -31,7 +31,7 @@ description: Emails are preferred to contact Dr. Huijiang Wang.
       </li>
       <li>
         <strong>Google Scholar:</strong>
-        <a href="https://scholar.google.com/citations?user=-d_88akAAAAJ">Huijiang Wang</a>
+        <a href="https://scholar.google.com/citations?user=-d_88akAAAAJ&hl=EN&oi=ao">Huijiang Wang</a>
       </li>
     </ul>
 

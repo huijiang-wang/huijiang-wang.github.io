@@ -162,7 +162,7 @@ html[data-theme="light"] {
   display: flex !important;
   min-height: 3.1rem;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row !important;
   gap: 0.55rem;
   padding: 0.65rem 0.85rem;
@@ -170,7 +170,7 @@ html[data-theme="light"] {
   border-radius: 0.65rem;
   background: color-mix(in srgb, var(--global-theme-color) 6%, transparent);
   color: var(--global-theme-color) !important;
-  text-align: left;
+  text-align: center;
   text-decoration: none !important;
   transition:
     transform 0.18s ease,
