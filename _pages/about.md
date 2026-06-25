@@ -51,14 +51,30 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
 <div class="hj-news-ticker" aria-label="Recent news">
   <div class="hj-news-ticker-track">
     <span class="hj-news-ticker-group">
-      <span class="hj-news-item"><strong>04 June 2026:</strong> I gave an <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">oral presentation</a> at IEEE ICRA 2026.</span>
+      <span class="hj-news-item">
+        <strong>04 June 2026:</strong> I gave an
+        <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">oral presentation</a>
+        at IEEE ICRA 2026.
+      </span>
       <span class="hj-news-separator" aria-hidden="true">&middot;</span>
-      <span class="hj-news-item"><strong>18-20 March 2026:</strong> As program chair, we organized the 6th <a href="https://embodied-intelligence.org/" target="_blank" rel="noopener noreferrer">Embodied Intelligence</a> conference.</span>
+      <span class="hj-news-item">
+        <strong>18-20 March 2026:</strong> As program chair, we organized the 6th
+        <a href="https://embodied-intelligence.org/" target="_blank" rel="noopener noreferrer">Embodied Intelligence</a>
+        conference.
+      </span>
     </span>
     <span class="hj-news-ticker-group" aria-hidden="true">
-      <span class="hj-news-item"><strong>04 June 2026:</strong> I gave an <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">oral presentation</a> at IEEE ICRA 2026.</span>
+      <span class="hj-news-item">
+        <strong>04 June 2026:</strong> I gave an
+        <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">oral presentation</a>
+        at IEEE ICRA 2026.
+      </span>
       <span class="hj-news-separator" aria-hidden="true">&middot;</span>
-      <span class="hj-news-item"><strong>18-20 March 2026:</strong> As program chair, we organized the 6th <a href="https://embodied-intelligence.org/" target="_blank" rel="noopener noreferrer">Embodied Intelligence</a> conference.</span>
+      <span class="hj-news-item">
+        <strong>18-20 March 2026:</strong> As program chair, we organized the 6th
+        <a href="https://embodied-intelligence.org/" target="_blank" rel="noopener noreferrer">Embodied Intelligence</a>
+        conference.
+      </span>
     </span>
   </div>
 </div>
