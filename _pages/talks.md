@@ -45,7 +45,7 @@ description: Selected talks, oral presentations, flash talks, and poster present
 <section class="hj-talk-photo-list" aria-label="Talk photos">
   <figure class="hj-talk-photo-card" id="talk-photo-sssa">
     <img
-      src="{{ '/assets/img/talks/2022-08-sssa-msca-training.jpg' | relative_url }}"
+      src="{{ '/assets/img/talks/Talk_Aug2022_SSSA_MSCA_Training.jpeg' | relative_url }}"
       alt="Group photo from the SSSA MSCA Training School in Pontedera, Italy."
       loading="lazy"
       decoding="async"
