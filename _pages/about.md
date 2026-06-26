@@ -56,11 +56,11 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
           alt="University of Cambridge logo"
         >
         <div class="hj-affiliation-body">
-          <div class="hj-affiliation-header">
-            <strong>University of Cambridge</strong>
-            <span>Jan 2021 - Mar 2025</span>
+          <div class="hj-affiliation-name">University of Cambridge</div>
+          <div class="hj-affiliation-meta">
+            <span>PhD</span>
+            <span class="hj-affiliation-date">Jan 2021 - Mar 2025</span>
           </div>
-          <p>PhD, Department of Engineering, Bio-Inspired Robotics Lab.</p>
         </div>
       </article>
     </div>
@@ -77,11 +77,11 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
           alt="EPFL logo"
         >
         <div class="hj-affiliation-body">
-          <div class="hj-affiliation-header">
-            <strong>Swiss Federal Institute of Technology Lausanne (EPFL)</strong>
-            <span>Jun 2025 - Present</span>
+          <div class="hj-affiliation-name">Swiss Federal Institute of Technology Lausanne (EPFL)</div>
+          <div class="hj-affiliation-meta">
+            <span>Postdoctoral Researcher</span>
+            <span class="hj-affiliation-date">Jun 2025 - Present</span>
           </div>
-          <p>Postdoctoral Researcher, CREATE Lab.</p>
         </div>
       </article>
 
@@ -92,11 +92,11 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
           alt="EMPA logo"
         >
         <div class="hj-affiliation-body">
-          <div class="hj-affiliation-header">
-            <strong>Swiss Federal Laboratories for Materials Science and Technology (EMPA)</strong>
-            <span>Dec 2024 - May 2025</span>
+          <div class="hj-affiliation-name">Swiss Federal Laboratories for Materials Science and Technology (EMPA)</div>
+          <div class="hj-affiliation-meta">
+            <span>Postdoctoral Researcher</span>
+            <span class="hj-affiliation-date">Dec 2024 - May 2025</span>
           </div>
-          <p>Postdoctoral Researcher.</p>
         </div>
       </article>
     </div>
