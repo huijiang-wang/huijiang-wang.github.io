@@ -92,24 +92,24 @@ html[data-theme="light"] {
 
 .post article .hj-affiliation-list {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.6rem;
   margin: 0.7rem 0 0;
 }
 
 .post article .hj-affiliation-card {
   display: grid;
-  grid-template-columns: 5rem minmax(0, 1fr);
-  gap: 1rem;
+  grid-template-columns: 4.7rem minmax(0, 1fr);
+  gap: 0.8rem;
   align-items: center;
-  padding: 0.75rem 0.85rem;
+  padding: 0.62rem 0.75rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 0.8rem;
   background: color-mix(in srgb, var(--global-theme-color) 5%, transparent);
 }
 
 .post article .hj-affiliation-logo {
-  width: 4.4rem;
-  height: 3.6rem;
+  width: 4.15rem;
+  height: 3.25rem;
   object-fit: contain;
   padding: 0;
   border: 0;
@@ -118,40 +118,38 @@ html[data-theme="light"] {
 }
 
 .post article .hj-affiliation-body {
+  display: grid;
+  gap: 0.16rem;
   min-width: 0;
 }
 
-.post article .hj-affiliation-header {
-  display: flex;
-  gap: 0.75rem;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-.post article .hj-affiliation-header strong {
+.post article .hj-affiliation-name {
   color: var(--global-text-color);
   font-weight: 700;
+  line-height: 1.18;
 }
 
-.post article .hj-affiliation-header span {
-  flex: 0 0 auto;
+.post article .hj-affiliation-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.35rem;
+  align-items: baseline;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  line-height: 1.2;
+}
+
+.post article .hj-affiliation-date {
   color: var(--global-theme-color);
   font-weight: 700;
   white-space: nowrap;
 }
 
-.post article .hj-affiliation-card p {
-  margin: 0.16rem 0 0;
+.post article .hj-affiliation-date::before {
+  content: "|";
+  margin-right: 0.35rem;
   color: var(--global-text-color-light);
-}
-
-.post article .hj-affiliation-column .hj-affiliation-header {
-  display: block;
-}
-
-.post article .hj-affiliation-column .hj-affiliation-header span {
-  display: block;
-  margin-top: 0.12rem;
+  font-weight: 400;
 }
 
 .post article .hj-news-ticker {
@@ -267,21 +265,12 @@ html[data-theme="light"] {
   }
 
   .post article .hj-affiliation-card {
-    grid-template-columns: 4.4rem minmax(0, 1fr);
+    grid-template-columns: 4.2rem minmax(0, 1fr);
   }
 
   .post article .hj-affiliation-logo {
-    width: 4rem;
-    height: 3.2rem;
-  }
-
-  .post article .hj-affiliation-header {
-    display: block;
-  }
-
-  .post article .hj-affiliation-header span {
-    display: block;
-    margin-top: 0.12rem;
+    width: 3.9rem;
+    height: 3rem;
   }
 
   .post article .hj-news-ticker {
