@@ -41,7 +41,10 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
 - Robotic teleoperation
 - Human-robot collaboration
 
-<div class="hj-affiliation-columns">
+<div
+  class="hj-affiliation-columns"
+  style="clear: both; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; align-items: start; margin: 0.35rem 0 1.5rem;"
+>
   <section class="hj-affiliation-column">
     <h2 class="hj-section-title">Education</h2>
 
