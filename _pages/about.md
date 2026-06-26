@@ -44,7 +44,104 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
 <!-- ## Education -->
 <h2 class="hj-section-title">Education</h2>
 
-- PhD, University of Cambridge | _Jan 2021 - Mar 2025_
+<div class="hj-affiliation-list">
+  <article class="hj-affiliation-card">
+    <img
+      class="hj-affiliation-logo"
+      src="{{ '/assets/img/logos/cambridge.svg' | relative_url }}"
+      alt="University of Cambridge logo"
+    >
+    <div class="hj-affiliation-body">
+      <div class="hj-affiliation-header">
+        <strong>University of Cambridge</strong>
+        <span>Jan 2021 - Mar 2025</span>
+      </div>
+      <p>PhD, Department of Engineering, Bio-Inspired Robotics Lab.</p>
+    </div>
+  </article>
+
+  <article class="hj-affiliation-card">
+    <img
+      class="hj-affiliation-logo"
+      src="{{ '/assets/img/logos/beihang.svg' | relative_url }}"
+      alt="Beihang University logo"
+    >
+    <div class="hj-affiliation-body">
+      <div class="hj-affiliation-header">
+        <strong>Beihang University</strong>
+        <span>Sep 2017 - Jan 2020</span>
+      </div>
+      <p>Master's degree, Aerospace Engineering.</p>
+    </div>
+  </article>
+
+  <article class="hj-affiliation-card">
+    <img
+      class="hj-affiliation-logo"
+      src="{{ '/assets/img/logos/beihang.svg' | relative_url }}"
+      alt="Beihang University logo"
+    >
+    <div class="hj-affiliation-body">
+      <div class="hj-affiliation-header">
+        <strong>Beihang University</strong>
+        <span>Sep 2013 - Jul 2017</span>
+      </div>
+      <p>Bachelor's degree, Aerospace Engineering.</p>
+    </div>
+  </article>
+</div>
+
+<h2 class="hj-section-title">Employment</h2>
+
+<div class="hj-affiliation-list">
+  <article class="hj-affiliation-card">
+    <img class="hj-affiliation-logo" src="{{ '/assets/img/logos/epfl.svg' | relative_url }}" alt="EPFL logo">
+    <div class="hj-affiliation-body">
+      <div class="hj-affiliation-header">
+        <strong>Swiss Federal Institute of Technology Lausanne (EPFL)</strong>
+        <span>Jun 2025 - Present</span>
+      </div>
+      <p>Postdoctoral Researcher, CREATE Lab.</p>
+    </div>
+  </article>
+
+  <article class="hj-affiliation-card">
+    <img class="hj-affiliation-logo" src="{{ '/assets/img/logos/empa.svg' | relative_url }}" alt="Empa logo">
+    <div class="hj-affiliation-body">
+      <div class="hj-affiliation-header">
+        <strong>Swiss Federal Laboratories for Materials Science and Technology (Empa)</strong>
+        <span>Dec 2024 - May 2025</span>
+      </div>
+      <p>Postdoctoral Researcher, bio-inspired variable-stiffness design for adaptive robot perching.</p>
+    </div>
+  </article>
+
+  <article class="hj-affiliation-card">
+    <img
+      class="hj-affiliation-logo"
+      src="{{ '/assets/img/logos/formhand.svg' | relative_url }}"
+      alt="FormHand GmbH logo"
+    >
+    <div class="hj-affiliation-body">
+      <div class="hj-affiliation-header">
+        <strong>FormHand Automation GmbH</strong>
+        <span>Jun 2023 - Sep 2023</span>
+      </div>
+      <p>EU MSCA industrial secondment, soft universal grippers and industrial manipulation.</p>
+    </div>
+  </article>
+
+  <article class="hj-affiliation-card">
+    <img class="hj-affiliation-logo" src="{{ '/assets/img/logos/vub.svg' | relative_url }}" alt="VUB logo">
+    <div class="hj-affiliation-body">
+      <div class="hj-affiliation-header">
+        <strong>Vrije Universiteit Brussel (VUB)</strong>
+        <span>Mar 2022 - Jun 2022</span>
+      </div>
+      <p>EU MSCA academic secondment, Brubotics and Physical Chemistry and Polymer Science Center.</p>
+    </div>
+  </article>
+</div>
 
 <h2 class="hj-section-title">News</h2>
 

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 120" role="img" aria-label="VUB logo">
+  <rect width="220" height="120" rx="18" fill="#fff"/>
+  <rect x="24" y="26" width="64" height="68" rx="10" fill="#004c97"/>
+  <text x="36" y="70" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="900">VUB</text>
+  <circle cx="84" cy="31" r="9" fill="#f58220"/>
+  <text x="104" y="55" fill="#111" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="800">Vrije</text>
+  <text x="104" y="76" fill="#111" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="800">Universiteit</text>
+  <text x="104" y="95" fill="#111" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Brussel</text>
+</svg>
