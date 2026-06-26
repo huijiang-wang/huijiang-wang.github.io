@@ -41,50 +41,63 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
 - Robotic teleoperation
 - Human-robot collaboration
 
-<!-- ## Education -->
-<h2 class="hj-section-title">Education</h2>
+<div class="hj-affiliation-columns">
+  <section class="hj-affiliation-column">
+    <h2 class="hj-section-title">Education</h2>
 
-<div class="hj-affiliation-list">
-  <article class="hj-affiliation-card">
-    <img
-      class="hj-affiliation-logo"
-      src="{{ '/assets/img/logos/cambridge-logo.png' | relative_url }}"
-      alt="University of Cambridge logo"
-    >
-    <div class="hj-affiliation-body">
-      <div class="hj-affiliation-header">
-        <strong>University of Cambridge</strong>
-        <span>Jan 2021 - Mar 2025</span>
-      </div>
-      <p>PhD, Department of Engineering, Bio-Inspired Robotics Lab.</p>
+    <div class="hj-affiliation-list">
+      <article class="hj-affiliation-card">
+        <img
+          class="hj-affiliation-logo"
+          src="{{ '/assets/img/logos/cambridge-logo.png' | relative_url }}"
+          alt="University of Cambridge logo"
+        >
+        <div class="hj-affiliation-body">
+          <div class="hj-affiliation-header">
+            <strong>University of Cambridge</strong>
+            <span>Jan 2021 - Mar 2025</span>
+          </div>
+          <p>PhD, Department of Engineering, Bio-Inspired Robotics Lab.</p>
+        </div>
+      </article>
     </div>
-  </article>
-</div>
+  </section>
 
-<h2 class="hj-section-title">Employment</h2>
+  <section class="hj-affiliation-column">
+    <h2 class="hj-section-title">Employment</h2>
 
-<div class="hj-affiliation-list">
-  <article class="hj-affiliation-card">
-    <img class="hj-affiliation-logo" src="{{ '/assets/img/logos/epfl-logo.png' | relative_url }}" alt="EPFL logo">
-    <div class="hj-affiliation-body">
-      <div class="hj-affiliation-header">
-        <strong>Swiss Federal Institute of Technology Lausanne (EPFL)</strong>
-        <span>Jun 2025 - Present</span>
-      </div>
-      <p>Postdoctoral Researcher, CREATE Lab.</p>
+    <div class="hj-affiliation-list">
+      <article class="hj-affiliation-card">
+        <img
+          class="hj-affiliation-logo"
+          src="{{ '/assets/img/logos/epfl-logo.png' | relative_url }}"
+          alt="EPFL logo"
+        >
+        <div class="hj-affiliation-body">
+          <div class="hj-affiliation-header">
+            <strong>Swiss Federal Institute of Technology Lausanne (EPFL)</strong>
+            <span>Jun 2025 - Present</span>
+          </div>
+          <p>Postdoctoral Researcher, CREATE Lab.</p>
+        </div>
+      </article>
+
+      <article class="hj-affiliation-card">
+        <img
+          class="hj-affiliation-logo"
+          src="{{ '/assets/img/logos/empa-logo.png' | relative_url }}"
+          alt="EMPA logo"
+        >
+        <div class="hj-affiliation-body">
+          <div class="hj-affiliation-header">
+            <strong>Swiss Federal Laboratories for Materials Science and Technology (EMPA)</strong>
+            <span>Dec 2024 - May 2025</span>
+          </div>
+          <p>Postdoctoral Researcher.</p>
+        </div>
+      </article>
     </div>
-  </article>
-
-  <article class="hj-affiliation-card">
-    <img class="hj-affiliation-logo" src="{{ '/assets/img/logos/empa-logo.png' | relative_url }}" alt="EMPA logo">
-    <div class="hj-affiliation-body">
-      <div class="hj-affiliation-header">
-        <strong>Swiss Federal Laboratories for Materials Science and Technology (EMPA)</strong>
-        <span>Dec 2024 - May 2025</span>
-      </div>
-      <p>Postdoctoral Researcher.</p>
-    </div>
-  </article>
+  </section>
 </div>
 
 <h2 class="hj-section-title">News</h2>
