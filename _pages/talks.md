@@ -60,11 +60,11 @@ description: Selected talks, oral presentations, flash talks, and poster present
     </a>
     <figcaption>
       <strong>25 Years of Embodied Intelligence Workshop</strong>: June 2025, Lausanne. Our BIRL lab (Cambridge) and CREATE Lab
-      (EPFL) hosted the workshop. I chaired a session, presented my work, and connected with invited speakers including Rolf
-      Pfeifer, Brad Nelson (ETHZ), Metin Sitti (MPI), Cecilia Laschi (NUS), Aude Billard (EPFL), Auke Ijspeert (EPFL),
-      Barry Trimmer (Tufts), Barbara Mazzolai (IIT), Bas Overvelde (TU/e, AMOLF), Kyu-Jin Cho (SNU), Thrish Nanayakkara
-      (ICL), Oliver Brock (TU Berlin), Jamie Paik (EPFL), Yasuo Kuniyoshi (UTokyo), Arianna Menciassi (SSSA), Jonathan
-      Rossiter (Bristol), Adam Stokes (Edinburgh), Josh Bongard (UVM), and 40+ speakers.
+      (EPFL) hosted the workshop. I chaired a session, presented my work, and connected with many scholars. Our workshop invited
+      speakers including Rolf Pfeifer, Brad Nelson (ETHZ), Metin Sitti (MPI), Cecilia Laschi (NUS), Aude Billard (EPFL),
+      Auke Ijspeert (EPFL), Barry Trimmer (Tufts), Barbara Mazzolai (IIT), Bas Overvelde (TU/e, AMOLF), Kyu-Jin Cho (SNU),
+      Thrish Nanayakkara (ICL), Oliver Brock (TU Berlin), Jamie Paik (EPFL), Yasuo Kuniyoshi (UTokyo), Arianna Menciassi
+      (SSSA), Jonathan Rossiter (Bristol), Adam Stokes (Edinburgh), Josh Bongard (UVM), and 40+ speakers.
     </figcaption>
   </figure>
 
