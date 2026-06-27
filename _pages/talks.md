@@ -105,8 +105,8 @@ description: Selected talks, oral presentations, flash talks, and poster present
       decoding="async"
     >
     <figcaption>
-      <strong>Pre-ICRA Workshop</strong>: May 2023, Cambridge, UK. I presented poster and discussed with Prof. Toshio Fukuda,
-      former IEEE President, at Pre-ICRA workshop.
+      <strong>Pre-ICRA Workshop</strong>: May 2023, Cambridge. We invited Prof. Toshio Fukuda, former IEEE President, to
+      visit our BIRL lab for a Pre-ICRA workshop, where I presented a poster and discussed my robotics research with him.
     </figcaption>
   </figure>
 </section>

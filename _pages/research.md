@@ -4,7 +4,6 @@ title: Research
 permalink: /research/
 nav: true
 nav_order: 2
-description: Research in soft robotics, dexterous manipulation, and bio-inspired robot design and control.
 ---
 
 <h2 class="hj-section-title">Soft Robotics</h2>

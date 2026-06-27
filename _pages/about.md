@@ -63,6 +63,36 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
           </div>
         </div>
       </article>
+
+      <article class="hj-affiliation-card">
+        <img
+          class="hj-affiliation-logo"
+          src="{{ '/assets/img/logos/formhand-logo.jpg' | relative_url }}"
+          alt="FormHand logo"
+        >
+        <div class="hj-affiliation-body">
+          <div class="hj-affiliation-name">FormHand Automation GmbH</div>
+          <div class="hj-affiliation-meta">
+            <span>EU MSCA Industrial Secondment</span>
+            <span class="hj-affiliation-date">Jun 2023 - Sep 2023</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="hj-affiliation-card">
+        <img
+          class="hj-affiliation-logo"
+          src="{{ '/assets/img/logos/vub-logo.png' | relative_url }}"
+          alt="VUB logo"
+        >
+        <div class="hj-affiliation-body">
+          <div class="hj-affiliation-name">Vrije Universiteit Brussel (VUB)</div>
+          <div class="hj-affiliation-meta">
+            <span>EU MSCA Academic Secondment</span>
+            <span class="hj-affiliation-date">Mar 2022 - Jun 2022</span>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 
