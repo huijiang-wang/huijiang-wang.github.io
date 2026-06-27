@@ -877,6 +877,18 @@ html[data-theme="light"] {
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
 }
 
+.hj-talk-photo-link {
+  display: block;
+  overflow: hidden;
+  cursor: zoom-in;
+  border-radius: 0.55rem;
+}
+
+.hj-talk-photo-link:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--global-theme-color) 45%, transparent);
+  outline-offset: 4px;
+}
+
 .hj-talk-photo-card img {
   display: block;
   width: 100%;
@@ -884,6 +896,15 @@ html[data-theme="light"] {
   object-fit: contain;
   background: #f7fafb;
   border-radius: 0.55rem;
+  transition:
+    transform 180ms ease,
+    filter 180ms ease;
+}
+
+.hj-talk-photo-link:hover img,
+.hj-talk-photo-link:focus-visible img {
+  filter: saturate(1.06);
+  transform: scale(1.01);
 }
 
 #talk-photo-sssa img,
