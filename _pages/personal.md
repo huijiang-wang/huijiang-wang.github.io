@@ -5,6 +5,7 @@ permalink: /personal/
 nav: true
 nav_order: 5
 description: A gallery of life beyond research, including travel, outdoor activities, celebrations, and time with friends.
+sitemap: true
 ---
 
 <h2 class="hj-section-title">Beyond the Lab</h2>

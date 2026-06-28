@@ -5,6 +5,7 @@ permalink: /contact/
 nav: true
 nav_order: 6
 description: Emails are preferred to contact Dr. Huijiang Wang.
+sitemap: true
 ---
 
 <div class="hj-contact-layout">

@@ -4,6 +4,7 @@ title: Research
 permalink: /research/
 nav: true
 nav_order: 2
+sitemap: true
 ---
 
 <h2 class="hj-section-title">Soft Robotics</h2>

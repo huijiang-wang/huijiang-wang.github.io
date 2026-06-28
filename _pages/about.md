@@ -4,6 +4,7 @@ title: Home
 permalink: /
 nav: false
 nav_order: 1
+sitemap: true
 subtitle: Postdoctoral Researcher, Swiss Federal Institute of Technology in Lausanne (EPFL)
 
 profile:

@@ -5,6 +5,7 @@ permalink: /talks/
 nav: true
 nav_order: 4
 description: Selected talks, oral presentations, flash talks, and poster presentations.
+sitemap: true
 ---
 
 <h2 class="hj-section-title">Selected Talks and Presentations</h2>

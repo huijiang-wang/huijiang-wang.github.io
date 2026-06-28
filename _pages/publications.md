@@ -5,6 +5,7 @@ title: Publications
 description: Peer-reviewed journal and conference publications, displayed in reverse chronological order.
 nav: true
 nav_order: 3
+sitemap: true
 ---
 
 <!-- _pages/publications.md -->
