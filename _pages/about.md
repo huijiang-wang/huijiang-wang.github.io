@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-<!-- ## About -->
+<!-- ## About: profile photo refreshed on 2026-07-04 -->
 <h2 class="hj-section-title">About</h2>
 
 Huijiang Wang is a Postdoctoral Researcher in the CREATE Lab at the Swiss Federal Institute of Technology Lausanne (EPFL). His research explores <span class="hj-red-bold">how morphology, materials, sensing, and control</span> can be integrated to create adaptive and intelligent robotic systems. During his PhD at the University of Cambridge, he conducted research in the Bio-Inspired Robotics Lab, focusing on embodied dynamics and bio-inspired mechanisms for adaptive robotic behaviour.
