@@ -9,7 +9,7 @@ subtitle: Postdoctoral Researcher, Swiss Federal Institute of Technology in Laus
 
 profile:
   align: right
-  image: huijiang_wang.jpg
+  image: huijiang_wang_life2.jpg
   image_circular: false
   more_info: >
     <p><span class="hj-red-bold">Dr. Huijiang Wang (王慧疆)</span></p>
