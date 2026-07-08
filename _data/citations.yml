@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-07-08'
 papers:
   -d_88akAAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -10,7 +10,7 @@ papers:
     title: Analytical field-of-regard representation for rapid and accurate prediction of agile satellite imaging opportunities
     year: '2019'
   -d_88akAAAAJ:3fE2CSJIrl8C:
-    citations: 29
+    citations: 30
     title: "Self\u2010regulated self\u2010healing robotic gripper for resilient and adaptive grasping"
     year: '2023'
   -d_88akAAAAJ:4DMP91E08xMC:
@@ -46,7 +46,7 @@ papers:
     title: A versatile method for target area coverage analysis with arbitrary satellite attitude maneuver paths
     year: '2022'
   -d_88akAAAAJ:KlAtU1dfN6UC:
-    citations: 5
+    citations: 6
     title: Adaptive locomotion learning for quadruped robots by combining DRL with a cosine oscillator based rhythm controller
     year: '2023'
   -d_88akAAAAJ:LkGwnXOMwfcC:
@@ -74,7 +74,7 @@ papers:
     title: 'Behavior Foundation Model: Towards Next-Generation Whole-Body Control System of Humanoid Robots'
     year: '2025'
   -d_88akAAAAJ:UeHWp8X0CEIC:
-    citations: 22
+    citations: 23
     title: Data-driven simulation framework for expressive piano playing by anthropomorphic hand with variable passive properties
     year: '2022'
   -d_88akAAAAJ:UebtZRa9Y70C:
@@ -114,19 +114,19 @@ papers:
     title: Human-Inspired Foot-Spine Coordination Control for Stable Landing of Jumping Robots
     year: '2025'
   -d_88akAAAAJ:aqlVkmm33-oC:
-    citations: 1
+    citations: 2
     title: Multi-Sensor Fusion-Based Mobile Manipulator Remote Control for Intelligent Smart Home Assistance
     year: '2025'
   -d_88akAAAAJ:dhFuZR0502QC:
     citations: 0
-    title: Integrated Sensing and Colour Expression of Spatial Status using a Fibre Optic Sensor Pair
+    title: Integrated sensing and colour expression of spatial status using a fibre optic sensor pair
     year: '2026'
   -d_88akAAAAJ:eQOLeE2rZwMC:
-    citations: 14
+    citations: 13
     title: A rigid-flexible-soft coupled dexterous hand with sliding tactile perception and feedback
     year: '2024'
   -d_88akAAAAJ:hqOjcs7Dif8C:
-    citations: 22
+    citations: 24
     title: "A Motion\u2010Sensing Integrated Soft Robot with Triboelectric Nanogenerator for Pipeline Inspection"
     year: '2025'
   -d_88akAAAAJ:kNdYIx-mwKoC:
@@ -138,7 +138,7 @@ papers:
     title: "A Multisensor Wearable Device Based on Capacitive Microphone Sensors for Robust Human\u2013Robot Interaction in Smart Home Environments"
     year: '2025'
   -d_88akAAAAJ:roLk4NBRz8UC:
-    citations: 25
+    citations: 28
     title: "Human\u2013robot cooperative piano playing with learning-based real-time music accompaniment"
     year: '2024'
   -d_88akAAAAJ:ufrVoPGSRksC:
