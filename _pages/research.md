@@ -108,3 +108,112 @@ sitemap: true
 
   </div>
 </div>
+
+<section class="hj-research-info-block" aria-labelledby="academic-services">
+  <h2 id="academic-services" class="hj-section-title">Academic Services</h2>
+
+  <div class="hj-research-info-card">
+    <table class="hj-research-info-table">
+      <thead>
+        <tr>
+          <th scope="col">Role</th>
+          <th scope="col">Event Name</th>
+          <th scope="col">Time/Venue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Program Chair</td>
+          <td>The 6th International Conference on Embodied Intelligence</td>
+          <td>Online, 2026</td>
+        </tr>
+        <tr>
+          <td>Associate Chair</td>
+          <td>The 24th Towards Autonomous Robotic Systems Conference (TAROS)</td>
+          <td>Cambridge, 2023</td>
+        </tr>
+        <tr>
+          <td>Reviewer</td>
+          <td>T-RO; T-ASE; SORO; RA-L; EAAI; SciRep; ICRA; IROS; RoboSoft; Sensors</td>
+          <td>Selected journals and conferences</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="hj-research-info-block" aria-labelledby="mentoring-experience">
+  <h2 id="mentoring-experience" class="hj-section-title">Mentoring Experience</h2>
+
+  <div class="hj-research-info-card">
+    <table class="hj-research-info-table">
+      <thead>
+        <tr>
+          <th scope="col">Year</th>
+          <th scope="col">Mentee</th>
+          <th scope="col">Project / Institution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2026</td>
+          <td>Baptiste Ferrer</td>
+          <td>Semester Project, EPFL</td>
+        </tr>
+        <tr>
+          <td>2026</td>
+          <td>Victor Van den Heuvel</td>
+          <td>Master Project, École Polytechnique Fédérale de Lausanne</td>
+        </tr>
+        <tr>
+          <td>2025</td>
+          <td>Yu (Antares) Zhang</td>
+          <td>PhD, École Polytechnique Fédérale de Lausanne</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Mingqi Yuan</td>
+          <td>PhD student, The Hong Kong Polytechnic University</td>
+        </tr>
+        <tr>
+          <td>2023</td>
+          <td>Lawrence Schofield</td>
+          <td>Master Thesis, University of Cambridge</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>Emily Zhang</td>
+          <td>Undergraduate, University of Cambridge</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="hj-research-info-block" aria-labelledby="teaching-assistant">
+  <h2 id="teaching-assistant" class="hj-section-title">Teaching Assistant</h2>
+
+  <div class="hj-research-info-card">
+    <table class="hj-research-info-table">
+      <thead>
+        <tr>
+          <th scope="col">Term</th>
+          <th scope="col">Course</th>
+          <th scope="col">Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2022 Fall</td>
+          <td>Integrated Design Project, University of Cambridge, Part IB</td>
+          <td>Undergraduate course; Instructor: Dr. Gemma Bale</td>
+        </tr>
+        <tr>
+          <td>2021 Fall</td>
+          <td>4M20: Introduction to Robotics, University of Cambridge, Tripos Part IIB</td>
+          <td>Undergraduate and postgraduate course; Instructors: Prof. Fumiya Iida and Prof. Amanda Prorok</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
