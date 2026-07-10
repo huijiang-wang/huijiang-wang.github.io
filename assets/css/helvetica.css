@@ -441,6 +441,54 @@ html[data-theme="light"] {
   background: color-mix(in srgb, var(--global-theme-color) 5%, transparent);
 }
 
+.hj-research-info-block {
+  margin: 2rem 0;
+}
+
+.hj-research-info-card {
+  overflow-x: auto;
+  padding: 0.85rem;
+  margin: 0.75rem 0 1.8rem;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 0.7rem;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.hj-research-info-table {
+  width: 100%;
+  min-width: 42rem;
+  margin: 0;
+  border-collapse: collapse;
+  color: var(--global-text-color);
+  font-size: 0.94rem;
+}
+
+.hj-research-info-table th,
+.hj-research-info-table td {
+  padding: 0.72rem 0.8rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  vertical-align: top;
+}
+
+.hj-research-info-table th {
+  color: var(--global-theme-color);
+  font-weight: 700;
+  text-align: left;
+  background: color-mix(in srgb, var(--global-theme-color) 8%, transparent);
+}
+
+.hj-research-info-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.hj-research-info-table td:first-child,
+.hj-research-info-table th:first-child {
+  width: 9.5rem;
+  font-weight: 600;
+}
+
 .hj-personal-intro {
   max-width: 46rem;
   margin-bottom: 1.75rem;
