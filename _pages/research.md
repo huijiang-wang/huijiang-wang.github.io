@@ -133,6 +133,16 @@ sitemap: true
           <td>Cambridge, 2023</td>
         </tr>
         <tr>
+          <td>Review Editor</td>
+          <td>Front. Robot. AI, Soft Robotics Section</td>
+          <td>2023</td>
+        </tr>
+        <tr>
+          <td>Special Issue Guest Editor</td>
+          <td>Front. Robot. AI Special Issues</td>
+          <td>2024, 2025</td>
+        </tr>
+        <tr>
           <td>Reviewer</td>
           <td>T-RO; T-ASE; MMT; SORO; RA-L; AISY; ARR; EAAI; SciRep; ICRA; IROS; RoboSoft; ASR; Front. Robot. AI; Sensors</td>
           <td>Selected journals and conferences</td>
