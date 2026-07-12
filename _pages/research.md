@@ -134,7 +134,7 @@ sitemap: true
         </tr>
         <tr>
           <td>Reviewer</td>
-          <td>T-RO; T-ASE; SORO; RA-L; EAAI; SciRep; ICRA; IROS; RoboSoft; Sensors</td>
+          <td>T-RO; T-ASE; MMT; SORO; RA-L; AISY; ARR; EAAI; SciRep; ICRA; IROS; RoboSoft; ASR; Front. Robot. AI; Sensors</td>
           <td>Selected journals and conferences</td>
         </tr>
       </tbody>
