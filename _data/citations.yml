@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-08-05'
 papers:
   -d_88akAAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -10,16 +10,16 @@ papers:
     title: Analytical field-of-regard representation for rapid and accurate prediction of agile satellite imaging opportunities
     year: '2019'
   -d_88akAAAAJ:3fE2CSJIrl8C:
-    citations: 30
+    citations: 33
     title: "Self\u2010regulated self\u2010healing robotic gripper for resilient and adaptive grasping"
     year: '2023'
   -d_88akAAAAJ:4DMP91E08xMC:
-    citations: 9
+    citations: 12
     title: 'A survey of behavior foundation model: Next-generation whole-body control system of humanoid robots'
     year: '2025'
   -d_88akAAAAJ:4TOpqqG69KYC:
     citations: 1
-    title: Local Colour Control on a Soft Continuum Robot by Bending Embedded Optical Fibre Dissipation Sensor Pairs
+    title: Local colour control on a soft continuum robot by bending embedded optical fibre dissipation sensor pairs
     year: '2025'
   -d_88akAAAAJ:5nxA0vEk-isC:
     citations: 0
@@ -58,7 +58,7 @@ papers:
     title: Hierarchical Procedural Framework for Low-latency Robot-Assisted Hand-Object Interaction
     year: '2025'
   -d_88akAAAAJ:MXK_kJrjxJIC:
-    citations: 17
+    citations: 19
     title: Soft touchless sensors and touchless sensing for soft robots
     year: '2024'
   -d_88akAAAAJ:QIV2ME_5wuYC:
@@ -70,17 +70,17 @@ papers:
     title: A variable stiffness anthropomorphic finger through embodied intelligence design
     year: '2023'
   -d_88akAAAAJ:ULOm3_A8WrAC:
-    citations: 7
-    title: 'Behavior Foundation Model: Towards Next-Generation Whole-Body Control System of Humanoid Robots'
+    citations: 6
+    title: 'Behavior foundation model: Towards next-generation whole-body control system of humanoid robots'
     year: '2025'
   -d_88akAAAAJ:UeHWp8X0CEIC:
-    citations: 23
+    citations: 22
     title: Data-driven simulation framework for expressive piano playing by anthropomorphic hand with variable passive properties
     year: '2022'
   -d_88akAAAAJ:UebtZRa9Y70C:
     citations: 0
-    title: RAPID ALGORITHM TO DETERMINE THE CLOSE APPROACHES AND DURATIONS BETWEEN SATELLITES
-    year: Unknown Year
+    title: Rapid algorithm to determine the close approaches and durations between satellites
+    year: '2019'
   -d_88akAAAAJ:W7OEmFMy1HYC:
     citations: 15
     title: Coordinating upper limbs for octave playing on the piano via neuro-musculoskeletal modeling
@@ -95,7 +95,7 @@ papers:
     year: '2026'
   -d_88akAAAAJ:YOwf2qJgpHMC:
     citations: 2
-    title: Self-Closing Suction Grippers for Industrial Grasping via Form-Flexible Design
+    title: Self-closing suction grippers for industrial grasping via form-flexible design
     year: '2025'
   -d_88akAAAAJ:YsMSGLbcyi4C:
     citations: 19
@@ -126,8 +126,8 @@ papers:
     title: A rigid-flexible-soft coupled dexterous hand with sliding tactile perception and feedback
     year: '2024'
   -d_88akAAAAJ:hqOjcs7Dif8C:
-    citations: 24
-    title: "A Motion\u2010Sensing Integrated Soft Robot with Triboelectric Nanogenerator for Pipeline Inspection"
+    citations: 27
+    title: "A motion\u2010sensing integrated soft robot with triboelectric nanogenerator for pipeline inspection"
     year: '2025'
   -d_88akAAAAJ:kNdYIx-mwKoC:
     citations: 0
@@ -142,7 +142,7 @@ papers:
     title: "Human\u2013robot cooperative piano playing with learning-based real-time music accompaniment"
     year: '2024'
   -d_88akAAAAJ:ufrVoPGSRksC:
-    citations: 3
+    citations: 4
     title: AI-powered musical and entertainment robotics
     year: '2025'
   -d_88akAAAAJ:zYLM7Y9cAGgC:
