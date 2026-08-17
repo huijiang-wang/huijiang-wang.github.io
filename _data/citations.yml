@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-17'
 papers:
   -d_88akAAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -42,7 +42,7 @@ papers:
     title: Adaptive algorithm to determine the coverage belt for agile satellite with attitude maneuvers
     year: '2019'
   -d_88akAAAAJ:IjCSPb-OGe4C:
-    citations: 16
+    citations: 17
     title: A versatile method for target area coverage analysis with arbitrary satellite attitude maneuver paths
     year: '2022'
   -d_88akAAAAJ:KlAtU1dfN6UC:
@@ -62,7 +62,7 @@ papers:
     title: Soft touchless sensors and touchless sensing for soft robots
     year: '2024'
   -d_88akAAAAJ:QIV2ME_5wuYC:
-    citations: 0
+    citations: 1
     title: A Spiderweb-inspired Electrostatic-microstructure Hybrid Adhesive Flexible Net for Space Debris Capture
     year: '2026'
   -d_88akAAAAJ:Se3iqnhoufwC:
@@ -70,7 +70,7 @@ papers:
     title: A variable stiffness anthropomorphic finger through embodied intelligence design
     year: '2023'
   -d_88akAAAAJ:ULOm3_A8WrAC:
-    citations: 6
+    citations: 7
     title: 'Behavior foundation model: Towards next-generation whole-body control system of humanoid robots'
     year: '2025'
   -d_88akAAAAJ:UeHWp8X0CEIC:
@@ -122,7 +122,7 @@ papers:
     title: Integrated sensing and colour expression of spatial status using a fibre optic sensor pair
     year: '2026'
   -d_88akAAAAJ:eQOLeE2rZwMC:
-    citations: 13
+    citations: 14
     title: A rigid-flexible-soft coupled dexterous hand with sliding tactile perception and feedback
     year: '2024'
   -d_88akAAAAJ:hqOjcs7Dif8C:
@@ -134,11 +134,11 @@ papers:
     title: Exploiting the Intrinsic Embodied Dynamics for Adaptive Robotic Behaviors
     year: '2025'
   -d_88akAAAAJ:mVmsd5A6BfQC:
-    citations: 1
+    citations: 2
     title: "A Multisensor Wearable Device Based on Capacitive Microphone Sensors for Robust Human\u2013Robot Interaction in Smart Home Environments"
     year: '2025'
   -d_88akAAAAJ:roLk4NBRz8UC:
-    citations: 28
+    citations: 31
     title: "Human\u2013robot cooperative piano playing with learning-based real-time music accompaniment"
     year: '2024'
   -d_88akAAAAJ:ufrVoPGSRksC:
