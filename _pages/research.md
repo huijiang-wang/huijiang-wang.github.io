@@ -133,6 +133,11 @@ sitemap: true
           <td>Cambridge, 2023</td>
         </tr>
         <tr>
+          <td>Guest Editor</td>
+          <td><a href="https://www.mdpi.com/journal/biomimetics/special_issues/62JH1B37TE">Biomimetics Special Issue: <em>Biomimetic Humanoid Robotics: From Foundation Models to Whole-Body Control</em></a><br><small>Co-guest editor with Prof. Junzhi Yu</small></td>
+          <td>Biomimetics (SCIE, JCR Q1), 2026-2027</td>
+        </tr>
+        <tr>
           <td>Review Editor</td>
           <td>Front. Robot. AI, Soft Robotics Section</td>
           <td>2023</td>
