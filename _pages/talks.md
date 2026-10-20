@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks
+title: Event
 permalink: /talks/
 nav: true
 nav_order: 4
@@ -8,8 +8,9 @@ description: Selected talks, oral presentations, flash talks, and poster present
 sitemap: true
 ---
 
-<h2 class="hj-section-title">Selected Talks and Presentations</h2>
+<h2 class="hj-section-title">Selected Events and Presentations</h2>
 
+- **August 2026** - I serve as Guest Editor for <a href="https://www.mdpi.com/journal/biomimetics/special_issues/62JH1B37TE?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer"><u>Special Issue on Biomimetic Humanoid Robotics</u></a> in <em>Biomimetics</em>, together with Prof. Junzhi Yu.
 - **2026** - IEEE International Conference on Robotics and Automation (ICRA 2026), Vienna, Austria, Jun 2026. <a href="#icra-2026-presentation-video"><u>Oral presentation</u></a>.
 - **2025** - 8th IEEE International Conference on Soft Robotics (RoboSoft 2025), <a href="#talk-photo-25-years-embodied-intelligence"><u>"25 Years of Embodied Intelligence" Workshop</u></a>, Lausanne, Switzerland. Poster presentation.
 - **2024** - CHIA (Centre for Human-Inspired Artificial Intelligence) Conference, Cambridge, United Kingdom. <a href="#chia-2024-flash-talk-video"><u>Flash talk</u></a> and poster presentation (<span class="hj-highlight-red">Best Demo Award</span>).
