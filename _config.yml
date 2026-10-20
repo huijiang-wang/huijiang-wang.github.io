@@ -555,7 +555,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "/assets/css/helvetica.css?v=20260617-video-updates"
+      fonts: "/assets/css/helvetica.css?v=20261020-news-wrap"
   highlightjs:
     integrity:
       css:
