@@ -9,7 +9,7 @@ subtitle: Postdoctoral Researcher, Swiss Federal Institute of Technology in Laus
 
 profile:
   align: right
-  image: life3.jpg
+  image: huijiang-wang-lab-portrait.jpg
   image_circular: false
   more_info: >
     <p><span class="hj-red-bold">Dr. Huijiang Wang (王慧疆)</span></p>
@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-<!-- ## About: profile photo refreshed with life3.jpg on 2026-07-04 -->
+<!-- ## About: profile photo refreshed with huijiang-wang-lab-portrait.jpg on 2026-10-20 -->
 <h2 class="hj-section-title">About</h2>
 
 Huijiang Wang is a Postdoctoral Researcher in the CREATE Lab at the Swiss Federal Institute of Technology Lausanne (EPFL). His research explores <span class="hj-red-bold">how morphology, materials, sensing, and control</span> can be integrated to create adaptive and intelligent robotic systems. During his PhD at the University of Cambridge, he conducted research in the Bio-Inspired Robotics Lab, focusing on embodied dynamics and bio-inspired mechanisms for adaptive robotic behaviour.
@@ -140,6 +140,16 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
   <div class="hj-news-ticker-track">
     <ul class="hj-news-list">
       <li>
+        <strong>August 2026:</strong> I serve as Guest Editor for
+        <a
+          href="https://www.mdpi.com/journal/biomimetics/special_issues/62JH1B37TE?utm_source=chatgpt.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Special Issue on Biomimetic Humanoid Robotics</a
+        >
+        in Biomimetics, together with Prof. Junzhi Yu.
+      </li>
+      <li>
         <strong>04 June 2026:</strong> I gave an
         <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">oral presentation</a> at IEEE ICRA 2026.
       </li>
@@ -151,6 +161,16 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
       <li><strong>16 June 2026:</strong> This academic website was officially launched.</li>
     </ul>
     <ul class="hj-news-list" aria-hidden="true">
+      <li>
+        <strong>August 2026:</strong> I serve as Guest Editor for
+        <a
+          href="https://www.mdpi.com/journal/biomimetics/special_issues/62JH1B37TE?utm_source=chatgpt.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Special Issue on Biomimetic Humanoid Robotics</a
+        >
+        in Biomimetics, together with Prof. Junzhi Yu.
+      </li>
       <li>
         <strong>04 June 2026:</strong> I gave an
         <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">oral presentation</a> at IEEE ICRA 2026.
