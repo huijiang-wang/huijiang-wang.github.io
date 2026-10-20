@@ -139,15 +139,20 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
 <div class="hj-news-ticker" aria-label="Recent news" style="--hj-news-visible-items: 3">
   <div class="hj-news-ticker-track">
     <ul class="hj-news-list">
-      <li>
-        <strong>August 2026:</strong> I serve as Guest Editor for
-        <a
-          href="https://www.mdpi.com/journal/biomimetics/special_issues/62JH1B37TE?utm_source=chatgpt.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Special Issue on Biomimetic Humanoid Robotics</a
-        >
-        in Biomimetics, together with Prof. Junzhi Yu.
+      <li class="hj-news-item-wrap">
+        <span class="hj-news-entry">
+          <strong>August 2026:</strong>
+          <span
+            >I serve as Guest Editor for
+            <a
+              href="https://www.mdpi.com/journal/biomimetics/special_issues/62JH1B37TE?utm_source=chatgpt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Special Issue on Biomimetic Humanoid Robotics</a
+            >
+            in Biomimetics, together with Prof. Junzhi Yu.</span
+          >
+        </span>
       </li>
       <li>
         <strong>04 June 2026:</strong> I gave an
@@ -161,15 +166,20 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
       <li><strong>16 June 2026:</strong> This academic website was officially launched.</li>
     </ul>
     <ul class="hj-news-list" aria-hidden="true">
-      <li>
-        <strong>August 2026:</strong> I serve as Guest Editor for
-        <a
-          href="https://www.mdpi.com/journal/biomimetics/special_issues/62JH1B37TE?utm_source=chatgpt.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Special Issue on Biomimetic Humanoid Robotics</a
-        >
-        in Biomimetics, together with Prof. Junzhi Yu.
+      <li class="hj-news-item-wrap">
+        <span class="hj-news-entry">
+          <strong>August 2026:</strong>
+          <span
+            >I serve as Guest Editor for
+            <a
+              href="https://www.mdpi.com/journal/biomimetics/special_issues/62JH1B37TE?utm_source=chatgpt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Special Issue on Biomimetic Humanoid Robotics</a
+            >
+            in Biomimetics, together with Prof. Junzhi Yu.</span
+          >
+        </span>
       </li>
       <li>
         <strong>04 June 2026:</strong> I gave an
