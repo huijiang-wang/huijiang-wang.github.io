@@ -145,9 +145,8 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
           <span
             >Our
             <a href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">Self-Sensing Compliant Hand</a>
-            preprint is out on <a href="https://arxiv.org/abs/2611.32937" target="_blank" rel="noopener noreferrer">arXiv</a>, and our
-            <a href="{{ '/publications/' | relative_url }}?paper=trehan2026eitgripper">EIT-based sensorised jamming gripper</a> paper appeared at IEEE/RSJ
-            IROS 2026.</span
+            for speed-dictated shared force control in VR teleoperation is now on
+            <a href="https://arxiv.org/abs/2611.32937" target="_blank" rel="noopener noreferrer">arXiv</a>.</span
           >
         </span>
       </li>
@@ -184,9 +183,8 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
           <span
             >Our
             <a href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">Self-Sensing Compliant Hand</a>
-            preprint is out on <a href="https://arxiv.org/abs/2611.32937" target="_blank" rel="noopener noreferrer">arXiv</a>, and our
-            <a href="{{ '/publications/' | relative_url }}?paper=trehan2026eitgripper">EIT-based sensorised jamming gripper</a> paper appeared at IEEE/RSJ
-            IROS 2026.</span
+            for speed-dictated shared force control in VR teleoperation is now on
+            <a href="https://arxiv.org/abs/2611.32937" target="_blank" rel="noopener noreferrer">arXiv</a>.</span
           >
         </span>
       </li>

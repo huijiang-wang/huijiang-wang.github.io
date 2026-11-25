@@ -7,39 +7,63 @@ nav_order: 2
 sitemap: true
 ---
 
-<h2 class="hj-section-title">Current Project</h2>
+<h2 class="hj-section-title">Current Projects</h2>
 
-<article class="hj-research-featured">
-  <a class="hj-research-featured-media" href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">
-    <img
-      src="{{ '/assets/img/research/selfsensing-hand-teleop.jpg' | relative_url }}"
-      alt="An operator wearing a VR headset teleoperates the compliant robot hand on a UR5 arm, which pours water from a bottle into a cup"
-      loading="lazy"
-      decoding="async"
-    >
-  </a>
-  <div class="hj-research-featured-body">
-    <span class="hj-research-tag">2026 &middot; arXiv preprint</span>
-    <h3 class="hj-research-featured-title">Self-Sensing Compliant Hand</h3>
-    <p class="hj-research-featured-subtitle">Speed-dictated shared force control in VR teleoperation</p>
-    <p>
-      In VR teleoperation the operator sees the object but cannot feel it, so regulating grasp force is hard. We show that the elastic transmission of
-      a compliant, tendon-driven anthropomorphic hand can itself act as the sensor: series springs in the tendon routing, read by potentiometers in the
-      forearm motor box, let the hand estimate joint states and finger forces without any finger-mounted sensors.
-    </p>
-    <p>
-      On top of this proprioception, a contact-aware shared controller lets the hand follow the operator until contact is detected, then hands over to a
-      finger-level force controller whose set point is dictated by the operator's grasping speed&mdash;improving success on fragile and heavy objects
-      compared with direct teleoperation.
-    </p>
-    <p class="hj-research-keywords"><strong>Keywords:</strong> compliant hands, self-sensing, shared control, VR teleoperation, force control</p>
-    <div class="hj-research-links" aria-label="Resources for the Self-Sensing Compliant Hand">
-      <a href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">Project page</a>
-      <a href="https://arxiv.org/abs/2611.32937" target="_blank" rel="noopener noreferrer">arXiv</a>
-      <a href="{{ '/publications/' | relative_url }}?paper=wang2026selfsensinghand">Publication</a>
+<div class="hj-research-current">
+  <article class="hj-research-featured">
+    <a class="hj-research-featured-media" href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="{{ '/assets/img/research/selfsensing-hand-teleop.jpg' | relative_url }}"
+        alt="An operator wearing a VR headset teleoperates the compliant robot hand on a UR5 arm, which pours water from a bottle into a cup"
+        loading="lazy"
+        decoding="async"
+      >
+    </a>
+    <div class="hj-research-featured-body">
+      <span class="hj-research-tag">2026 &middot; arXiv preprint</span>
+      <h3 class="hj-research-featured-title">Self-Sensing Compliant Hand</h3>
+      <p class="hj-research-featured-subtitle">Speed-dictated shared force control in VR teleoperation</p>
+      <p>
+        In VR teleoperation the operator sees the object but cannot feel it. We show that the elastic transmission of a compliant, tendon-driven
+        anthropomorphic hand can itself act as the sensor: series springs in the tendons, read by potentiometers in the forearm, let the hand estimate
+        joint states and finger forces without finger-mounted sensors. A contact-aware shared controller then hands over to finger-level force control
+        whose set point is dictated by the operator's grasping speed.
+      </p>
+      <p class="hj-research-keywords"><strong>Keywords:</strong> compliant hands, self-sensing, shared control, VR teleoperation</p>
+      <div class="hj-research-links" aria-label="Resources for the Self-Sensing Compliant Hand">
+        <a href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">Project page</a>
+        <a href="https://arxiv.org/abs/2611.32937" target="_blank" rel="noopener noreferrer">arXiv</a>
+        <a href="{{ '/publications/' | relative_url }}?paper=wang2026selfsensinghand">Publication</a>
+      </div>
     </div>
-  </div>
-</article>
+  </article>
+
+  <article class="hj-research-featured">
+    <a class="hj-research-featured-media hj-research-featured-media-light" href="https://arxiv.org/abs/2606.11826" target="_blank" rel="noopener noreferrer">
+      <img
+        src="{{ '/assets/img/research/modular-hand.png' | relative_url }}"
+        alt="Modular anthropomorphic hand assembled with interchangeable finger modules, with one finger module shown in CAD"
+        loading="lazy"
+        decoding="async"
+      >
+    </a>
+    <div class="hj-research-featured-body">
+      <span class="hj-research-tag">2026 &middot; arXiv preprint</span>
+      <h3 class="hj-research-featured-title">Modular Hand Design</h3>
+      <p class="hj-research-featured-subtitle">Multi-parameter finger benchmarking and selection</p>
+      <p>
+        Dexterous hand design spans morphology, actuation, and sensing, judged by both task-agnostic and task-dependent metrics. We built a hand platform
+        whose fingers snap into a teleoperated hand, so candidate fingers&mdash;varying joints, bones, skin, and sensor placement&mdash;can be screened
+        with quantitative benchmarks before full-hand validation. The optimized hand improves multi-object grasping and light-bulb screwing.
+      </p>
+      <p class="hj-research-keywords"><strong>Keywords:</strong> anthropomorphic hands, modular design, benchmarking, embodiment</p>
+      <div class="hj-research-links" aria-label="Resources for Modular Hand Design">
+        <a href="https://arxiv.org/abs/2606.11826" target="_blank" rel="noopener noreferrer">arXiv</a>
+        <a href="{{ '/publications/' | relative_url }}?paper=zhang2026modularhand">Publication</a>
+      </div>
+    </div>
+  </article>
+</div>
 
 <h2 class="hj-section-title">Research Themes</h2>
 
@@ -66,8 +90,8 @@ sitemap: true
       <ul class="hj-research-paper-list">
         <li><a href="{{ '/publications/' | relative_url }}?paper=trehan2026eitgripper" title="An EIT-based Sensorised Universal Jamming Gripper for Intrinsic Localisation and Object Detection">IEEE/RSJ IROS, 2026</a></li>
         <li><a href="{{ '/publications/' | relative_url }}?paper=wang2025selfclosing" title="Self-Closing Suction Grippers for Industrial Grasping via Form-Flexible Design">IEEE RA-P, 2025</a></li>
-        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023selfhealinggripper" title="Self-Regulated Self-Healing Robotic Gripper for Resilient and Adaptive Grasping">Adv. Intell. Syst., 2023</a> <span>(Issue Cover)</span></li>
-        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023suctioncups" title="Self-Closing and Self-Healing Multi-Material Suction Cups for Energy-Efficient Vacuum Grippers">Adv. Intell. Syst., 2023</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023selfhealinggripper" title="Self-Regulated Self-Healing Robotic Gripper for Resilient and Adaptive Grasping">Adv. Intell. Syst., 2023 (Universal Gripper)</a> <span>(Issue Cover)</span></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023suctioncups" title="Self-Closing and Self-Healing Multi-Material Suction Cups for Energy-Efficient Vacuum Grippers">Adv. Intell. Syst., 2023 (Suction Cup)</a></li>
         <li><a href="{{ '/publications/' | relative_url }}?paper=legrand2024variablestiffness" title="A Variable Stiffness Anthropomorphic Finger Through Embodied Intelligence Design">IEEE RA-L, 2024</a></li>
         <li><a href="{{ '/publications/' | relative_url }}?paper=wang2026fibresensor" title="Integrated Sensing and Colour Expression of Spatial Status Using a Fibre Optic Sensor Pair">Opt. Laser Technol., 2026</a></li>
         <li><a href="{{ '/publications/' | relative_url }}?paper=sirithunge2023touchless" title="Soft Touchless Sensors and Touchless Sensing for Soft Robots">Front. Robot. AI, 2024</a></li>
@@ -102,8 +126,7 @@ sitemap: true
 
       <h4 class="hj-research-subtitle">Selected papers</h4>
       <ul class="hj-research-paper-list">
-        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2026selfsensinghand" title="Self-Sensing Compliant Anthropomorphic Hand for Speed-Dictated Shared Force Control in Teleoperation">arXiv, 2026</a></li>
-        <li><a href="{{ '/publications/' | relative_url }}?paper=zhang2026modularhand" title="Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection">arXiv, 2026</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2026selfsensinghand" title="Self-Sensing Compliant Anthropomorphic Hand for Speed-Dictated Shared Force Control in Teleoperation">arXiv, 2026 (Self-Sensing Hand)</a></li>
         <li><a href="{{ '/publications/' | relative_url }}?paper=wang2026anthropomorphism" title="Balancing Anthropomorphism and Task Specificity for Dexterous Hand Design">Embodied Intell. Conf., 2026</a></li>
         <li><a href="{{ '/publications/' | relative_url }}?paper=wang2024cooperativepiano" title="Human-Robot Cooperative Piano Playing with Learning-Based Real-Time Music Accompaniment">IEEE T-RO, 2024</a></li>
         <li><a href="{{ '/publications/' | relative_url }}?paper=yuan2025handobject" title="Hierarchical Procedural Framework for Low-Latency Robot-Assisted Hand-Object Interaction">IEEE SMC, 2025</a></li>
@@ -139,6 +162,7 @@ sitemap: true
 
       <h4 class="hj-research-subtitle">Selected papers</h4>
       <ul class="hj-research-paper-list">
+        <li><a href="{{ '/publications/' | relative_url }}?paper=zhang2026modularhand" title="Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection">arXiv, 2026 (Hand Design)</a></li>
         <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023upperlimbs" title="Coordinating Upper Limbs for Octave Playing on the Piano via Neuro-Musculoskeletal Modeling">Bioinspir. Biomim., 2023</a></li>
         <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023selforganization" title="Self-Organization in Piano Playing: Why Pattern Transition?">Embodied Intell. Conf., 2023</a></li>
         <li><a href="{{ '/publications/' | relative_url }}?paper=wang2024emotionalalignment" title="Emotional Alignment for Human-Robot Cooperation in Musical Tasks">Embodied Intell. Conf., 2024</a></li>

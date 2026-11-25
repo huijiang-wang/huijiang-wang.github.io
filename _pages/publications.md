@@ -14,6 +14,8 @@ sitemap: true
 
 {% include bib_search.liquid %}
 
+<p class="hj-pub-note"><sup>*</sup> Equal contribution</p>
+
 <div class="publications">
 
 {% bibliography %}
