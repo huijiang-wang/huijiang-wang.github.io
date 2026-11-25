@@ -648,7 +648,7 @@ html[data-theme="light"] {
   position: relative;
   display: block;
   overflow: hidden;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 16 / 9;
   background: #000;
 }
 
@@ -667,11 +667,6 @@ html[data-theme="light"] {
   transition: transform 0.35s ease;
 }
 
-.hj-research-featured-media-light img {
-  inset: 0.6rem;
-  width: calc(100% - 1.2rem);
-  height: calc(100% - 1.2rem);
-}
 
 .hj-research-featured-media:hover img {
   transform: scale(1.025);

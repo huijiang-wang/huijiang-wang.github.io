@@ -555,7 +555,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "/assets/css/helvetica.css?v=20261125-compact-pubs"
+      fonts: "/assets/css/helvetica.css?v=20261125-modular-fig"
   highlightjs:
     integrity:
       css:

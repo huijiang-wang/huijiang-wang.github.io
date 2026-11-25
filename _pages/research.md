@@ -39,10 +39,10 @@ sitemap: true
   </article>
 
   <article class="hj-research-featured">
-    <a class="hj-research-featured-media hj-research-featured-media-light" href="https://arxiv.org/abs/2606.11826" target="_blank" rel="noopener noreferrer">
+    <a class="hj-research-featured-media hj-research-featured-media-light" href="{{ '/assets/img/research/modular-hand.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" title="Open full figure">
       <img
-        src="{{ '/assets/img/research/modular-hand.png' | relative_url }}"
-        alt="Modular anthropomorphic hand assembled with interchangeable finger modules, with one finger module shown in CAD"
+        src="{{ '/assets/img/research/modular-hand.jpg' | relative_url }}"
+        alt="Finger module designs, fabricated finger modules, the assembled modular hand, and a CAD rendering of the modular finger-palm interface with interchangeable finger modules"
         loading="lazy"
         decoding="async"
       >
