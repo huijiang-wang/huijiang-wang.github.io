@@ -136,9 +136,21 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
 
 <h2 class="hj-section-title">News</h2>
 
-<div class="hj-news-ticker" aria-label="Recent news" style="--hj-news-visible-items: 3">
+<div class="hj-news-ticker" aria-label="Recent news" style="--hj-news-visible-items: 4">
   <div class="hj-news-ticker-track">
     <ul class="hj-news-list">
+      <li class="hj-news-item-wrap">
+        <span class="hj-news-entry">
+          <strong>November 2026:</strong>
+          <span
+            >Our
+            <a href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">Self-Sensing Compliant Hand</a>
+            preprint is out on <a href="https://arxiv.org/abs/2611.32937" target="_blank" rel="noopener noreferrer">arXiv</a>, and our
+            <a href="{{ '/publications/' | relative_url }}?paper=trehan2026eitgripper">EIT-based sensorised jamming gripper</a> paper appeared at IEEE/RSJ
+            IROS 2026.</span
+          >
+        </span>
+      </li>
       <li class="hj-news-item-wrap">
         <span class="hj-news-entry">
           <strong>August 2026:</strong>
@@ -166,6 +178,18 @@ His work has encompassed variable-stiffness anthropomorphic fingers, form-flexib
       <li><strong>16 June 2026:</strong> This academic website was officially launched.</li>
     </ul>
     <ul class="hj-news-list" aria-hidden="true">
+      <li class="hj-news-item-wrap">
+        <span class="hj-news-entry">
+          <strong>November 2026:</strong>
+          <span
+            >Our
+            <a href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">Self-Sensing Compliant Hand</a>
+            preprint is out on <a href="https://arxiv.org/abs/2611.32937" target="_blank" rel="noopener noreferrer">arXiv</a>, and our
+            <a href="{{ '/publications/' | relative_url }}?paper=trehan2026eitgripper">EIT-based sensorised jamming gripper</a> paper appeared at IEEE/RSJ
+            IROS 2026.</span
+          >
+        </span>
+      </li>
       <li class="hj-news-item-wrap">
         <span class="hj-news-entry">
           <strong>August 2026:</strong>

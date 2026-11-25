@@ -7,106 +7,151 @@ nav_order: 2
 sitemap: true
 ---
 
-<h2 class="hj-section-title">Soft Robotics</h2>
+<h2 class="hj-section-title">Current Project</h2>
 
-<div class="hj-research-project">
-  <img
-    src="{{ '/assets/img/research/intelligent-soft-robot.jpg' | relative_url }}"
-    alt="Self-healing soft robotic grippers featured on the cover of Advanced Intelligent Systems"
-    loading="lazy"
-    decoding="async"
-  >
-  <div class="hj-research-project-body">
+<article class="hj-research-featured">
+  <a class="hj-research-featured-media" href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">
+    <img
+      src="{{ '/assets/img/research/selfsensing-hand-teleop.jpg' | relative_url }}"
+      alt="An operator wearing a VR headset teleoperates the compliant robot hand on a UR5 arm, which pours water from a bottle into a cup"
+      loading="lazy"
+      decoding="async"
+    >
+  </a>
+  <div class="hj-research-featured-body">
+    <span class="hj-research-tag">2026 &middot; arXiv preprint</span>
+    <h3 class="hj-research-featured-title">Self-Sensing Compliant Hand</h3>
+    <p class="hj-research-featured-subtitle">Speed-dictated shared force control in VR teleoperation</p>
     <p>
-      I design compliant, form-adaptive, and resilient robot bodies that use morphology and material intelligence to simplify physical interaction. This work spans hybrid suction-jamming grippers, self-healing soft grippers, variable-stiffness fingers, and integrated sensing, with an emphasis on reliable operation in uncertain and industrial environments.
+      In VR teleoperation the operator sees the object but cannot feel it, so regulating grasp force is hard. We show that the elastic transmission of
+      a compliant, tendon-driven anthropomorphic hand can itself act as the sensor: series springs in the tendon routing, read by potentiometers in the
+      forearm motor box, let the hand estimate joint states and finger forces without any finger-mounted sensors.
     </p>
-
-    <p class="hj-research-keywords"><strong>Keywords:</strong> soft grippers, self-healing materials, variable stiffness, embodied intelligence, soft sensing</p>
-
-    <h3 class="hj-research-subtitle">Selected papers</h3>
-    <ul class="hj-research-paper-list">
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2025selfclosing" title="Self-Closing Suction Grippers for Industrial Grasping via Form-Flexible Design">IEEE RA-P, 2025</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023selfhealinggripper" title="Self-Regulated Self-Healing Robotic Gripper for Resilient and Adaptive Grasping">Adv. Intell. Syst., 2023</a> <span>(Issue Cover)</span></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023suctioncups" title="Self-Closing and Self-Healing Multi-Material Suction Cups for Energy-Efficient Vacuum Grippers">Adv. Intell. Syst., 2023</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=legrand2024variablestiffness" title="A Variable Stiffness Anthropomorphic Finger Through Embodied Intelligence Design">IEEE RA-L, 2024</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=sirithunge2023touchless" title="Touchless Sensing for Soft Robots: A Review">Front. Robot. AI, 2023</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2026fibresensor" title="Integrated Sensing and Colour Expression of Spatial Status Using a Fibre Optic Sensor Pair">Opt. Laser Technol., 2026</a></li>
-    </ul>
-
-    <div class="hj-research-links" aria-label="Resources for Soft Robotics">
-      <a href="https://spectrum.ieee.org/video-friday-origami-microflyers" target="_blank" rel="noopener noreferrer">IEEE Spectrum coverage</a>
-      <a href="https://www.youtube.com/watch?v=96Zf6kjGASw" target="_blank" rel="noopener noreferrer">Robot video</a>
-      <a href="https://www.eng.cam.ac.uk/news/self-healing-robotic-gripper-could-be-future-sustainable-soft-robotics" target="_blank" rel="noopener noreferrer">Cambridge media coverage</a>
-      <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">ICRA26 Oral Present</a>
-    </div>
-
-  </div>
-</div>
-
-<h2 class="hj-section-title">Dexterous Manipulation</h2>
-
-<div class="hj-research-project">
-  <img
-    src="{{ '/assets/img/research/group2-new.jpg' | relative_url }}"
-    alt="Dexterous robotic hand shown during teleoperation and physical interaction"
-    loading="lazy"
-    decoding="async"
-  >
-  <div class="hj-research-project-body">
     <p>
-      I develop dexterous hands and arm-hand systems that manage high-dimensional motion through mechanical coordination, task-oriented morphology, and embodied dimensionality reduction. Piano playing, hand-object interaction, and teleoperation provide demanding testbeds for studying anthropomorphic design, passive dynamics, contact-aware control, and real-time multi-joint coordination.
+      On top of this proprioception, a contact-aware shared controller lets the hand follow the operator until contact is detected, then hands over to a
+      finger-level force controller whose set point is dictated by the operator's grasping speed&mdash;improving success on fragile and heavy objects
+      compared with direct teleoperation.
     </p>
-
-    <p class="hj-research-keywords"><strong>Keywords:</strong> dexterous hands, arm-hand coordination, anthropomorphic design, teleoperation, contact-rich manipulation</p>
-
-    <h3 class="hj-research-subtitle">Selected papers</h3>
-    <ul class="hj-research-paper-list">
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2024cooperativepiano" title="Human-Robot Cooperative Piano Playing with Learning-Based Real-Time Music Accompaniment">IEEE T-RO, 2024</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2026anthropomorphism" title="Balancing Anthropomorphism and Task Specificity for Dexterous Hand Design">Embodied. Intell. Conf., 2026</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2022expressivepiano" title="Data-Driven Simulation Framework for Expressive Piano Playing by an Anthropomorphic Hand with Variable Passive Properties">IEEE RoboSoft, 2022</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023reducedorder" title="Reduced Order Modeling for a Variable-Stiffness Piano-Playing Finger">TAROS, 2023</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=yuan2025handobject" title="Hierarchical Procedural Framework for Low-Latency Robot-Assisted Hand-Object Interaction">IEEE SMC, 2025</a></li>
-    </ul>
-
-    <div class="hj-research-links" aria-label="Resources for Dexterous Manipulation">
-      <a href="{{ '/talks/#chia-2024-flash-talk-video' | relative_url }}">CHIA 2024 award-winning flash talk</a>
-      <a href="https://www.eng.cam.ac.uk/news/research-human-robot-cooperative-piano-playing-hits-high-note-ai-conference" target="_blank" rel="noopener noreferrer">Cambridge Feature</a>
+    <p class="hj-research-keywords"><strong>Keywords:</strong> compliant hands, self-sensing, shared control, VR teleoperation, force control</p>
+    <div class="hj-research-links" aria-label="Resources for the Self-Sensing Compliant Hand">
+      <a href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">Project page</a>
+      <a href="https://arxiv.org/abs/2611.32937" target="_blank" rel="noopener noreferrer">arXiv</a>
+      <a href="{{ '/publications/' | relative_url }}?paper=wang2026selfsensinghand">Publication</a>
     </div>
-
   </div>
-</div>
+</article>
 
-<h2 class="hj-section-title">Bio-Inspired Robot Design and Control</h2>
+<h2 class="hj-section-title">Research Themes</h2>
 
-<div class="hj-research-project">
-  <img
-    src="{{ '/assets/img/research/group3-new.png' | relative_url }}"
-    alt="Bio-inspired embodied control and human-robot cooperative piano-playing frameworks"
-    loading="lazy"
-    decoding="async"
-  >
-  <div class="hj-research-project-body">
-    <p>
-      I draw inspiration from nervous, musculoskeletal, and behavioral systems to co-design robot morphology and control. This direction combines neural rhythm generation, embodied dynamics, adaptive locomotion, and human-robot co-adaptation, seeking efficient behavior that emerges from the interaction among controller, body, environment, and human partners.
-    </p>
-
-    <p class="hj-research-keywords"><strong>Keywords:</strong> bio-inspired robotics, embodied control, neural rhythms, adaptive locomotion, human-robot co-adaptation</p>
-
-    <h3 class="hj-research-subtitle">Selected papers</h3>
-    <ul class="hj-research-paper-list">
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023upperlimbs" title="Coordinating Human Upper Limbs for Expressive Piano Playing via Neuro-Musculoskeletal Modeling">Bioinspir. Biomim., 2023</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023selforganization" title="Self-Organization in Piano Playing: Why Pattern Transition?">Embodied. Intell. Conf., 2023</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=wang2024emotionalalignment" title="Emotional Alignment for Human-Robot Cooperation in Musical Tasks">Embodied Intelli. Conf. 2024</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=zhang2023locomotion" title="Adaptive Locomotion Learning for Quadruped Robots by Combining DRL with a Cosine Oscillator Based Rhythm Controller">Appl. Sci., 2023</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}?paper=chen2025footspine" title="Human-Inspired Foot-Spine Coordination Control for Stable Landing of Jumping Robots">CJME, 2025</a></li>
-    </ul>
-
-    <div class="hj-research-links" aria-label="Resources for Bio-Inspired Robot Design and Control">
-      <a href="{{ '/assets/video/cctv1-robot-fish-program-2016.mp4' | relative_url }}">Bio-inspired robot fish feature (Chinese)</a>
-      <a href="{{ '/talks/' | relative_url }}">Talks and presentations</a>
+<div class="hj-research-grid">
+  <article class="hj-research-card">
+    <div class="hj-research-card-media">
+      <img
+        src="{{ '/assets/img/research/intelligent-soft-robot.jpg' | relative_url }}"
+        alt="Self-healing soft robotic grippers featured on the cover of Advanced Intelligent Systems"
+        loading="lazy"
+        decoding="async"
+      >
     </div>
+    <div class="hj-research-card-body">
+      <h3 class="hj-research-card-title">Soft &amp; Sensorised Grippers</h3>
+      <p>
+        Compliant, form-adaptive, and resilient robot bodies that use morphology and material intelligence to simplify physical interaction: hybrid
+        suction-jamming and self-healing grippers, variable-stiffness fingers, and intrinsic sensing for reliable grasping in uncertain, industrial
+        environments.
+      </p>
+      <p class="hj-research-keywords"><strong>Keywords:</strong> soft grippers, self-healing materials, variable stiffness, soft sensing</p>
 
-  </div>
+      <h4 class="hj-research-subtitle">Selected papers</h4>
+      <ul class="hj-research-paper-list">
+        <li><a href="{{ '/publications/' | relative_url }}?paper=trehan2026eitgripper" title="An EIT-based Sensorised Universal Jamming Gripper for Intrinsic Localisation and Object Detection">IEEE/RSJ IROS, 2026</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2025selfclosing" title="Self-Closing Suction Grippers for Industrial Grasping via Form-Flexible Design">IEEE RA-P, 2025</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023selfhealinggripper" title="Self-Regulated Self-Healing Robotic Gripper for Resilient and Adaptive Grasping">Adv. Intell. Syst., 2023</a> <span>(Issue Cover)</span></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023suctioncups" title="Self-Closing and Self-Healing Multi-Material Suction Cups for Energy-Efficient Vacuum Grippers">Adv. Intell. Syst., 2023</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=legrand2024variablestiffness" title="A Variable Stiffness Anthropomorphic Finger Through Embodied Intelligence Design">IEEE RA-L, 2024</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2026fibresensor" title="Integrated Sensing and Colour Expression of Spatial Status Using a Fibre Optic Sensor Pair">Opt. Laser Technol., 2026</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=sirithunge2023touchless" title="Soft Touchless Sensors and Touchless Sensing for Soft Robots">Front. Robot. AI, 2024</a></li>
+      </ul>
+
+      <div class="hj-research-links" aria-label="Resources for Soft and Sensorised Grippers">
+        <a href="https://spectrum.ieee.org/video-friday-origami-microflyers" target="_blank" rel="noopener noreferrer">IEEE Spectrum</a>
+        <a href="https://www.youtube.com/watch?v=96Zf6kjGASw" target="_blank" rel="noopener noreferrer">Robot video</a>
+        <a href="https://www.eng.cam.ac.uk/news/self-healing-robotic-gripper-could-be-future-sustainable-soft-robotics" target="_blank" rel="noopener noreferrer">Cambridge news</a>
+        <a href="{{ '/talks/#icra-2026-presentation-video' | relative_url }}">ICRA26 oral</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="hj-research-card">
+    <div class="hj-research-card-media">
+      <img
+        src="{{ '/assets/img/research/group2-new.jpg' | relative_url }}"
+        alt="Dexterous robotic hand shown during teleoperation and physical interaction"
+        loading="lazy"
+        decoding="async"
+      >
+    </div>
+    <div class="hj-research-card-body">
+      <h3 class="hj-research-card-title">Dexterous Hands &amp; Teleoperation</h3>
+      <p>
+        Dexterous hands and arm-hand systems that manage high-dimensional motion through mechanical coordination, task-oriented morphology, and
+        self-sensing compliance. Piano playing, hand-object interaction, and VR teleoperation serve as demanding testbeds for anthropomorphic design,
+        contact-aware control, and shared human-robot authority.
+      </p>
+      <p class="hj-research-keywords"><strong>Keywords:</strong> dexterous hands, teleoperation, shared control, anthropomorphic design</p>
+
+      <h4 class="hj-research-subtitle">Selected papers</h4>
+      <ul class="hj-research-paper-list">
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2026selfsensinghand" title="Self-Sensing Compliant Anthropomorphic Hand for Speed-Dictated Shared Force Control in Teleoperation">arXiv, 2026</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=zhang2026modularhand" title="Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection">arXiv, 2026</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2026anthropomorphism" title="Balancing Anthropomorphism and Task Specificity for Dexterous Hand Design">Embodied Intell. Conf., 2026</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2024cooperativepiano" title="Human-Robot Cooperative Piano Playing with Learning-Based Real-Time Music Accompaniment">IEEE T-RO, 2024</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=yuan2025handobject" title="Hierarchical Procedural Framework for Low-Latency Robot-Assisted Hand-Object Interaction">IEEE SMC, 2025</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2022expressivepiano" title="Data-Driven Simulation Framework for Expressive Piano Playing by an Anthropomorphic Hand with Variable Passive Properties">IEEE RoboSoft, 2022</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023reducedorder" title="Reduced-Order Modeling of a Soft Anthropomorphic Finger for Piano Keystrokes">TAROS, 2023</a></li>
+      </ul>
+
+      <div class="hj-research-links" aria-label="Resources for Dexterous Hands and Teleoperation">
+        <a href="https://huijiang-wang.github.io/selfsensing-hand/" target="_blank" rel="noopener noreferrer">Self-Sensing Hand</a>
+        <a href="{{ '/talks/#chia-2024-flash-talk-video' | relative_url }}">CHIA 2024 flash talk</a>
+        <a href="https://www.eng.cam.ac.uk/news/research-human-robot-cooperative-piano-playing-hits-high-note-ai-conference" target="_blank" rel="noopener noreferrer">Cambridge feature</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="hj-research-card">
+    <div class="hj-research-card-media">
+      <img
+        src="{{ '/assets/img/research/group3-new.png' | relative_url }}"
+        alt="Bio-inspired embodied control and human-robot cooperative piano-playing frameworks"
+        loading="lazy"
+        decoding="async"
+      >
+    </div>
+    <div class="hj-research-card-body">
+      <h3 class="hj-research-card-title">Bio-Inspired Design &amp; Control</h3>
+      <p>
+        Inspiration from nervous, musculoskeletal, and behavioural systems to co-design robot morphology and control&mdash;combining neural rhythm
+        generation, embodied dynamics, adaptive locomotion, and human-robot co-adaptation, so that efficient behaviour emerges from the interplay of
+        controller, body, environment, and human partner.
+      </p>
+      <p class="hj-research-keywords"><strong>Keywords:</strong> bio-inspired robotics, embodied control, neural rhythms, co-adaptation</p>
+
+      <h4 class="hj-research-subtitle">Selected papers</h4>
+      <ul class="hj-research-paper-list">
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023upperlimbs" title="Coordinating Upper Limbs for Octave Playing on the Piano via Neuro-Musculoskeletal Modeling">Bioinspir. Biomim., 2023</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2023selforganization" title="Self-Organization in Piano Playing: Why Pattern Transition?">Embodied Intell. Conf., 2023</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=wang2024emotionalalignment" title="Emotional Alignment for Human-Robot Cooperation in Musical Tasks">Embodied Intell. Conf., 2024</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=zhang2023locomotion" title="Adaptive Locomotion Learning for Quadruped Robots by Combining DRL with a Cosine Oscillator Based Rhythm Controller">Appl. Sci., 2023</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}?paper=chen2025footspine" title="Human-Inspired Foot-Spine Coordination Control for Stable Landing of Jumping Robots">CJME, 2025</a></li>
+      </ul>
+
+      <div class="hj-research-links" aria-label="Resources for Bio-Inspired Design and Control">
+        <a href="{{ '/assets/video/cctv1-robot-fish-program-2016.mp4' | relative_url }}">Robot fish feature (Chinese)</a>
+        <a href="{{ '/talks/' | relative_url }}">Talks</a>
+      </div>
+    </div>
+  </article>
 </div>
 
 <section class="hj-research-info-block" aria-labelledby="academic-services">
